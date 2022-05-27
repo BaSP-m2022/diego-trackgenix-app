@@ -5,11 +5,12 @@ function Employees() {
   const [employees, saveEmployees] = useState([]);
 
   useEffect(() => {
-    fetch(`https://jsonplaceholder.typicode.com/users`)
+    fetch('https://diego-trackgenix-app.vercel.app/employees')
       .then((response) => response.json())
       .then((response) => {
         saveEmployees(response);
-      });
+      })
+      .catch((error) => console.log(error));
   }, []);
 
   return (
