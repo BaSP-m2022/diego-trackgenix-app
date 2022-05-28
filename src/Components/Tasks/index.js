@@ -6,13 +6,15 @@ const Tasks = () => {
   const [taskList, setTasksList] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:4000/tasks`)
-      .then((response) => response.json())
-      .then((response) => {
-        setTasksList(response.data);
-        // console.log('Task', response);
-        // console.log('Task', taskList);
-      });
+    try {
+      fetch(`http://localhost:4000/tasks`)
+        .then((response) => response.json())
+        .then((response) => {
+          setTasksList(response.data);
+        });
+    } catch (error) {
+      console.error(error);
+    }
   }, []);
 
   return (

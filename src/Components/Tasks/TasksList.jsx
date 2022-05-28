@@ -2,7 +2,6 @@ import styles from './tasks.module.css';
 import ListItem from './ListItem';
 
 const TasksList = ({ list }) => {
-  console.log('Estoy en TASKLIST', list);
   return (
     <div className={styles.container}>
       <table className={styles.table}>
