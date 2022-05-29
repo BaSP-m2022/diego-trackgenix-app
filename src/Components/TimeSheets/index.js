@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import styles from './time-sheets.module.css';
 import TimeSheet from "./TimeSheet";
@@ -21,14 +20,13 @@ const TimeSheets = () => {
             <h2>Timesheets</h2>
             {list &&
                 list.map((timeSheet) => {
-                    return <TimeSheet key={timeSheet._id} timeSheet={timeSheet}></TimeSheet>;
+                    return <TimeSheet key={timeSheet._id} timeSheet={timeSheet} fetchTimeSheets={fetchTimeSheets}></TimeSheet>;
                 })}
         </section >
     );
 };
 
 export default TimeSheets;
-
 
 
 

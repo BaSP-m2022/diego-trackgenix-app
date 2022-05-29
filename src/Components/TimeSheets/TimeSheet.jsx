@@ -1,7 +1,11 @@
-import React from "react";
+import React from "react"
 import styles from './time-sheets.module.css';
-const TimeSheet=({timeSheet})=>{
-
+const TimeSheet=({timeSheet, fetchTimeSheets})=>{
+    const handleDelete=()=>{
+      fetch(`http://localhost:4000/timesheets/${timeSheet._id}`, { method: 'DELETE' })
+      .then(response=>response.json())
+      .then(fetchTimeSheets);
+    }
 return (
     <div className={styles.timesheetContainer}>
                     <div>
@@ -28,8 +32,8 @@ return (
                             </h4>
                         </div>
                     </div>
-                    <button>X</button>
+                    <button onClick={handleDelete}>X</button>
                 </div>
-);
-};
-export default TimeSheet;
+)
+}
+export default TimeSheet
