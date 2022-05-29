@@ -17,9 +17,15 @@ const Tasks = () => {
     }
   }, []);
 
+  const deleteItem = (id) => {
+    if (window.confirm('Are you sure?')) {
+      setTasksList([...taskList.filter((listItem) => listItem._id !== id)]);
+    }
+  };
+
   return (
     <div className={styles.container}>
-      <TasksList list={taskList}></TasksList>
+      <TasksList list={taskList} deleteItem={deleteItem}></TasksList>
     </div>
   );
 };
