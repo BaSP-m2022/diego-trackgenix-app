@@ -1,6 +1,29 @@
-.container {
-  flex: 1;
+.listSection{
+  flex-direction: column;
   display: flex;
-  justify-content: center;
   align-items: center;
+justify-content: center;
+align-content: center;
+justify-items: center;
+}
+.timesheetContainer{
+background-color: #EA3354;
+color: white;
+width: 25%;
+margin: 10px;
+display: flex;
+flex-direction: column;
+padding: 20px;
+align-items: center;
+}
+.times{
+  border-radius: 25px;
+  background-color: #AF6E7A;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.eachTime{
+  text-align: center;
+  padding: 10px;
 }
