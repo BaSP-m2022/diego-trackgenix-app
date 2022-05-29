@@ -1,16 +1,16 @@
 import React from 'react';
 
-const ListItem = ({ list, deleteItem }) => {
+const ListItem = ({ tasksItem, deleteItem }) => {
   const handleDelete = () => {
-    deleteItem(list._id);
+    deleteItem(tasksItem._id);
   };
 
   return (
     <tr>
-      <td>{list._id}</td>
-      <td>{list.description}</td>
-      <td>{list.workedHours}</td>
-      <td>{list.date}</td>
+      <td>{tasksItem._id}</td>
+      <td>{tasksItem.description}</td>
+      <td>{tasksItem.workedHours}</td>
+      <td>{tasksItem.date}</td>
       <td>
         <button>
           <svg
@@ -30,7 +30,7 @@ const ListItem = ({ list, deleteItem }) => {
         </button>
       </td>
       <td>
-        <button onClick={() => handleDelete(list._id)}>
+        <button onClick={() => handleDelete(tasksItem._id)}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"

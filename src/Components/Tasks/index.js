@@ -1,3 +1,4 @@
+require('dotenv').config();
 import { useEffect, useState } from 'react';
 import TasksList from './TasksList';
 import styles from './tasks.module.css';
@@ -8,7 +9,7 @@ const Tasks = () => {
 
   useEffect(() => {
     try {
-      fetch(`http://localhost:4000/tasks`)
+      fetch(process.env.REACT_APP_API_URL)
         .then((response) => response.json())
         .then((response) => {
           setTasksList(response.data);
@@ -26,9 +27,11 @@ const Tasks = () => {
     });
   };
 
-  const deleteItem = (id) => {
+  const deleteItem = () => {
     if (modalState.id) {
-      setTasksList([...taskList.filter((listItem) => listItem._id !== modalState.id)]);
+      fetch(process.env.REACT_APP_API_URL, { method: 'DELETE' }).then(() =>
+        setTasksList([...taskList.filter((listItem) => listItem._id !== modalState.id)])
+      );
       setModalState(!modalState);
     }
   };
@@ -38,7 +41,7 @@ const Tasks = () => {
         <h2>Are you sure?</h2>
         <button onClick={deleteItem}>Yes</button>
       </Modal>
-      <TasksList list={taskList} deleteItem={openModal}></TasksList>
+      <TasksList tasklist={taskList} deleteItem={openModal}></TasksList>
     </div>
   );
 };

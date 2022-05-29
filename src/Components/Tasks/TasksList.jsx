@@ -1,7 +1,7 @@
 import styles from './tasks.module.css';
 import ListItem from './ListItem';
 
-const TasksList = ({ list, deleteItem }) => {
+const TasksList = ({ tasklist, deleteItem }) => {
   return (
     <div className={styles.container}>
       <table className={styles.table}>
@@ -16,8 +16,8 @@ const TasksList = ({ list, deleteItem }) => {
           </tr>
         </thead>
         <tbody>
-          {list.map((item) => {
-            return <ListItem key={item._id} list={item} deleteItem={deleteItem} />;
+          {tasklist.map((item) => {
+            return <ListItem key={item._id} tasksItem={item} deleteItem={deleteItem} />;
           })}
         </tbody>
       </table>
