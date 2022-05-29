@@ -11,6 +11,8 @@ const TasksList = ({ list, deleteItem }) => {
             <th>Description</th>
             <th>Worked Hours</th>
             <th>Date</th>
+            <th></th>
+            <th></th>
           </tr>
         </thead>
         <tbody>

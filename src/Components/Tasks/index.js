@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import TasksList from './TasksList';
 import styles from './tasks.module.css';
+import Modal from './TasksModal';
 
 const Tasks = () => {
   const [taskList, setTasksList] = useState([]);
@@ -16,16 +17,28 @@ const Tasks = () => {
       console.error(error);
     }
   }, []);
+  const [modalState, setModalState] = useState(false, { id: null });
 
-  const deleteItem = (id) => {
-    if (window.confirm('Are you sure?')) {
-      setTasksList([...taskList.filter((listItem) => listItem._id !== id)]);
-    }
+  const openModal = (id) => {
+    setModalState({
+      setModalState: true,
+      id
+    });
   };
 
+  const deleteItem = (id) => {
+    if (modalState.id) {
+      setTasksList([...taskList.filter((listItem) => listItem._id !== modalState.id)]);
+      setModalState(!modalState);
+    }
+  };
   return (
     <div className={styles.container}>
-      <TasksList list={taskList} deleteItem={deleteItem}></TasksList>
+      <Modal modalState={modalState} setModalState={setModalState}>
+        <h2>Are you sure?</h2>
+        <button onClick={deleteItem}>Yes</button>
+      </Modal>
+      <TasksList list={taskList} deleteItem={openModal}></TasksList>
     </div>
   );
 };
