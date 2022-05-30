@@ -10,7 +10,7 @@ const Tasks = () => {
 
   useEffect(() => {
     try {
-      fetch(process.env.REACT_APP_API_URL)
+      fetch(`${process.env.REACT_APP_API_URL}/tasks`)
         .then((response) => response.json())
         .then((response) => {
           setTasksList(response.data);
@@ -30,7 +30,7 @@ const Tasks = () => {
 
   const deleteItem = () => {
     if (modalState.id) {
-      fetch(process.env.REACT_APP_API_URL, { method: 'DELETE' }).then(() =>
+      fetch(`${process.env.REACT_APP_API_URL}/tasks`, { method: 'DELETE' }).then(() =>
         setTasksList([...taskList.filter((listItem) => listItem._id !== modalState.id)])
       );
       setModalState(!modalState);
