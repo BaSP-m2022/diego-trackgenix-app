@@ -1,5 +1,8 @@
 import styles from './projects.module.css';
 function ProjectItem(props) {
+  const deleteItem = () => {
+    props.onDelete(props.id);
+  };
   return (
     <tr>
       <td className={styles.tdClass}>{props.id}</td>
@@ -12,7 +15,9 @@ function ProjectItem(props) {
         <button className={styles.buttons}>Edit</button>
       </td>
       <td>
-        <button className={styles.buttons}>Delete</button>
+        <button className={styles.buttons} onClick={deleteItem}>
+          Delete
+        </button>
       </td>
     </tr>
   );

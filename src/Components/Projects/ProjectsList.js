@@ -14,6 +14,17 @@ function ProjectsList() {
       console.error(error);
     }
   }, []);
+  const deleteItem = (id) => {
+    const params = { method: 'delete' };
+    try {
+      fetch(`http://localhost:4000/projects/${id}`, params).then((response) => {
+        console.log(response);
+        setProjects([...projects.filter((project) => project._id !== id)]);
+      });
+    } catch (error) {
+      console.error(error);
+    }
+  };
   return (
     <div className={styles.container}>
       <table>
@@ -41,6 +52,7 @@ function ProjectsList() {
                 isActive={project.isActive}
                 endDate={project.endDate}
                 startDate={project.startDate}
+                onDelete={deleteItem}
               />
             );
           })}
