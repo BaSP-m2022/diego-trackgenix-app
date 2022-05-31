@@ -5,7 +5,7 @@ function ProjectsList() {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
     try {
-      fetch(`http://localhost:4000/projects`)
+      fetch(`${process.env.REACT_APP_API_URL}/projects`)
         .then((response) => response.json())
         .then((response) => {
           setProjects(response.data);
@@ -17,7 +17,7 @@ function ProjectsList() {
   const deleteItem = (id) => {
     const params = { method: 'delete' };
     try {
-      fetch(`http://localhost:4000/projects/${id}`, params).then((response) => {
+      fetch(`${process.env.REACT_APP_API_URL}/projects/${id}`, params).then((response) => {
         console.log(response);
         setProjects([...projects.filter((project) => project._id !== id)]);
       });
