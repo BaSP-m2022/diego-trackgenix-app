@@ -30,7 +30,6 @@ function ProjectsList() {
       <table>
         <thead>
           <tr>
-            <th>ID</th>
             <th>Name</th>
             <th>Description</th>
             <th>Client</th>

@@ -5,7 +5,6 @@ function ProjectItem(props) {
   };
   return (
     <tr>
-      <td className={styles.tdClass}>{props.id}</td>
       <td className={styles.tdClass}>{props.name}</td>
       <td className={styles.tdClass}>{props.description}</td>
       <td className={styles.tdClass}>{props.client}</td>
