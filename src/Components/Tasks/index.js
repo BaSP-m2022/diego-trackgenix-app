@@ -4,6 +4,7 @@ import TasksList from './TasksList';
 import styles from './tasks.module.css';
 import Modal from './TasksModal';
 import AddTask from './AddTask';
+import EditTask from './EditTask';
 
 const Tasks = () => {
   const [taskList, setTasksList] = useState([]);
@@ -19,6 +20,7 @@ const Tasks = () => {
       console.error(error);
     }
   }, []);
+
   const [modalState, setModalState] = useState(false, { id: null });
 
   const openModal = (id) => {
@@ -47,6 +49,8 @@ const Tasks = () => {
     setTasksList([...taskList, newTask]);
   };
 
+  /* const [taskToEdit, setTaskToEdit] = useState(null); */
+
   return (
     <div className={styles.container}>
       <Modal modalState={modalState} setModalState={setModalState}>
@@ -54,7 +58,11 @@ const Tasks = () => {
         <button onClick={deleteItem}>Yes</button>
       </Modal>
       <AddTask addTask={addTask}></AddTask>
+      <EditTask />
       <TasksList tasklist={taskList} deleteItem={openModal}></TasksList>
+      {/* <button onClick={handleClickCreat} className={styles.createTask}>
+        + Create Task +
+      </button> */}
     </div>
   );
 };
