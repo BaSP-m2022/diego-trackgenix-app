@@ -21,14 +21,10 @@
         "react"
     ],
     "rules": {
+        "no-unused-vars": "warn",
         "semi": [2, "always"],
         "react/react-in-jsx-scope": "off",
-        "prettier/prettier": [
-            "error",
-            {
-              "endOfLine": "auto"
-            }
-          ],
+        "prettier/prettier": 0,
         "react/prop-types": 0
     }
 }

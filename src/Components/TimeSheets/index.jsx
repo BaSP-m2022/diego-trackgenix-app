@@ -1,13 +1,17 @@
 import { useState, useEffect } from "react";
 import styles from './time-sheets.module.css';
 import TimeSheet from "./TimeSheet";
+import ModalTimeSheet from "./AddAndModal";
+// import ModalTimeSheetEdit from "./ModalEdit";
 const TimeSheets = () => {
     const [list, setList] = useState([]);
+    const [showModal, setShowModal] = useState(false);
     const fetchTimeSheets = () => {
-        fetch(`http://localhost:4000/timesheets`)
+        fetch(`${process.env.REACT_APP_API_URL}timesheets/`)
             .then(response => response.json())
             .then(response => setList(response.data));
     };
+
     useEffect(async () => {
         try {
             await fetchTimeSheets();
@@ -18,9 +22,18 @@ const TimeSheets = () => {
     return (
         <section className={styles.listSection}>
             <h2>Timesheets</h2>
+            <button onClick={() => { setShowModal(true); }}>Create Timesheet</button>
+            <ModalTimeSheet showModal={showModal} setShowModal={setShowModal} fetchTimeSheets={fetchTimeSheets}></ModalTimeSheet>
             {list &&
-                list.map((timeSheet) => {
-                    return <TimeSheet key={timeSheet._id} timeSheet={timeSheet} fetchTimeSheets={fetchTimeSheets}></TimeSheet>;
+                list.map((timeSheet, index) => {
+                    const handleDelete = () => {
+                        fetch(`${process.env.REACT_APP_API_URL}timesheets/${timeSheet._id}`, { method: 'DELETE' })
+                            .then(response => response.json())
+                            .then(fetchTimeSheets);
+                    };
+                    return (
+                        <TimeSheet key={index} timeSheet={timeSheet} fetchTimeSheets={fetchTimeSheets} handleDelete={handleDelete}></TimeSheet>
+                    );
                 })}
         </section >
     );

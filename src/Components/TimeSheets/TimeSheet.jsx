@@ -1,11 +1,9 @@
-import React from "react"
+import React from "react";
 import styles from './time-sheets.module.css';
-const TimeSheet=({timeSheet, fetchTimeSheets})=>{
-    const handleDelete=()=>{
-      fetch(`http://localhost:4000/timesheets/${timeSheet._id}`, { method: 'DELETE' })
-      .then(response=>response.json())
-      .then(fetchTimeSheets);
-    }
+import ModalTimeSheetEdit from "./EditAndModal";
+import { useState } from "react";
+const TimeSheet=({timeSheet, fetchTimeSheets,handleDelete})=>{
+    const [showModalEdit, setShowModalEdit] = useState(false);
 return (
     <div className={styles.timesheetContainer}>
                     <div>
@@ -17,10 +15,10 @@ return (
                     <div className={styles.times}>
                         <div className={styles.eachTime}>
                             <h4>
-                                Updated at:
+                                Started date:
                             </h4>
                             <h4>
-                                {timeSheet.updatedAt}
+                                {timeSheet.startDate}
                             </h4>
                         </div>
                         <div className={styles.eachTime}>
@@ -33,7 +31,9 @@ return (
                         </div>
                     </div>
                     <button onClick={handleDelete}>X</button>
+                    <button onClick={()=>setShowModalEdit(true)}>Edit</button>
+                    <ModalTimeSheetEdit showModalEdit={showModalEdit} timeSheet={timeSheet} fetchTimeSheets={fetchTimeSheets} setShowModalEdit={setShowModalEdit}></ModalTimeSheetEdit>
                 </div>
-)
-}
-export default TimeSheet
+);
+};
+export default TimeSheet;
