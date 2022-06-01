@@ -4,7 +4,7 @@ import styles from './admins.module.css';
 function List() {
   const [Admins, saveAdmins] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:4000/admins')
+    fetch(`${process.env.REACT_APP_API_URL}/admins`)
       .then((response) => response.json())
       .then((response) => {
         saveAdmins(response.data);
