@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './index.module.css';
-import Button from '../../Shared/Buttons/buttons';
+import Button from '../../shared/buttons';
 
 const ListItem = ({ listItem, setEditItem, deleteItem }) => {
   const handleDelete = () => {

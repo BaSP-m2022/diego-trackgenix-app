@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './index.module.css';
-import Table from '../../Shared/Table/Table';
-import Button from '../../Shared/Buttons/buttons';
+import Table from '../../shared/table';
+import Button from '../../shared/buttons';
 import { useState } from 'react';
-import ModalDeleteEmp from '../Modal/modalDelete';
+import ModalDeleteEmp from '../modal/modalDelete';
 
 const ListEmployee = ({ Employees, deleteItem, setIsEditModalOpen, setEditItem }) => {
   const [isModalDeleteOpen, setIsModalDeleteOpen] = useState(false);

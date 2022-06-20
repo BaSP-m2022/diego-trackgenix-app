@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import styles from './super-admins.module.css';
-import Button from '../Shared/Buttons/buttons';
-import Table from '../Shared/Table/Table';
-import Modal from '../Shared/Modal/index';
-import Input from '../Shared/Input';
-import Loader from '../Shared/Loading';
+import Button from '../shared/buttons';
+import Table from '../shared/table';
+import Modal from '../shared/modal';
+import Input from '../shared/input';
+import Loader from '../shared/loading';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   getSuperAdmins,

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from './manageItem.module.css';
-import Input from '../Shared/Input';
-import Button from '../Shared/Buttons/buttons';
+import Input from '../shared/input';
+import Button from '../shared/buttons';
 
 const ManageItem = function ({ handler, project }) {
   const defaultValue = {

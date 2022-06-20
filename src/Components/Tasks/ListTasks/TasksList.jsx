@@ -1,6 +1,6 @@
 import styles from '../tasks.module.css';
-import Table from '../../Shared/Table/Table';
-import Button from '../../Shared/Buttons/buttons';
+import Table from '../../shared/table';
+import Button from '../../shared/buttons';
 
 const TasksList = ({ tasklist, deleteItem, editItem }) => {
   const handleDelete = (id) => {

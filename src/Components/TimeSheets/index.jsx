@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import styles from './time-sheets.module.css';
-import Table from '../Shared/Table/Table';
-import Button from '../Shared/Buttons/buttons';
-import ModalAddTimeSheet from './AddAndModal';
-import ModalTimeSheetEdit from './EditAndModal';
-import ModalDeleteConfirmation from './ModalDeleteConfirmation';
-import Loader from '../Shared/Loading';
+import Table from '../shared/table';
+import Button from '../shared/buttons';
+import ModalAddTimeSheet from './addAndModal';
+import ModalTimeSheetEdit from './editAndModal';
+import ModalDeleteConfirmation from './modalDeleteConfirmation';
+import Loader from '../shared/loading';
 import { useDispatch, useSelector } from 'react-redux';
 import { getTimeSheets, deleteTimeSheet } from '../../redux/timesheets/thunks';
 

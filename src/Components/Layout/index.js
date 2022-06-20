@@ -1,6 +1,6 @@
-import Footer from '../Footer/index';
+import Footer from '../footer';
 import styles from './layout.module.css';
-import Header from '../Header';
+import Header from '../header';
 // import SideBar from '../Shared/SideBar/SideBar';
 function Layout({ children }) {
   return (

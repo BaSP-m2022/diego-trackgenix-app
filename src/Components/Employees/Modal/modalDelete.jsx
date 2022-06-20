@@ -1,6 +1,6 @@
 import React from 'react';
-import Modal from '../../Shared/Modal';
-import Button from '../../Shared/Buttons/buttons';
+import Modal from '../../shared/modal';
+import Button from '../../shared/buttons';
 
 const ModalDeleteEmp = ({ setIsModalDeleteOpen, isModalDeleteOpen, deleteItem, employeeItem }) => {
   return (

@@ -1,9 +1,9 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import styles from './time-sheets.module.css';
-import Button from '../Shared/Buttons/buttons';
-import Input from '../Shared/Input';
-import Modal from '../Shared/Modal/index';
+import Button from '../shared/buttons';
+import Input from '../shared/input';
+import Modal from '../shared/modal';
 import { editTimeSheet } from '../../redux/timesheets/thunks';
 import { useDispatch } from 'react-redux/es/exports';
 

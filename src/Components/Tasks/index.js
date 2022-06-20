@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
-import TasksList from './ListTasks/TasksList';
+import TasksList from './listTasks/tasksList';
 import styles from './tasks.module.css';
-import Modal from '../Shared/Modal/index.jsx';
-import Button from '../Shared/Buttons/buttons';
+import Modal from '../shared/modal';
+import Button from '../shared/buttons';
 import { IoIosAddCircleOutline } from 'react-icons/io';
-import Input from '../Shared/Input';
+import Input from '../shared/input';
 
 const Tasks = () => {
   const [taskList, setTasksList] = useState([]);

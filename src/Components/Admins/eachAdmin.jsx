@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './admins.module.css';
-import EditModalAdmin from './EditModalAdmin';
+import EditModalAdmin from './editModalAdmin';
 import { useState } from 'react';
-import ModalDelete from './ModalDelete';
+import ModalDelete from './modalDelete';
 
 const AdminItem = ({ admin, fetchAdmins }) => {
   const [editModal, setEditModal] = useState(false);

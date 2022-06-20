@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import styles from './admins.module.css';
-import ModalEdit from './ModalEdit';
+import ModalEdit from './modalEdited';
 
 const ModalEditAdmin = ({ editModal, admin, fetchAdmins, setEditModal }) => {
   const [EditModalIsOpen, setEditModalIsOpen] = useState(false);
