@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import styles from './super-admins.module.css';
-import Button from '../shared/buttons';
-import Table from '../shared/table';
-import Modal from '../shared/modal';
-import Input from '../shared/input';
-import Loader from '../shared/loading';
+import Button from 'components/shared/buttons';
+import Table from 'components/shared/table';
+import Modal from 'components/shared/modal';
+import Input from 'components/shared/input';
+import Loader from 'components/shared/loading';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   getSuperAdmins,
   deleteSuperAdmin,
   addSuperAdmin,
   editSuperAdmin
-} from '../../redux/superAdmins/thunks';
+} from 'redux/superAdmins/thunks';
 
 function SuperAdmins() {
   let initialValues = {

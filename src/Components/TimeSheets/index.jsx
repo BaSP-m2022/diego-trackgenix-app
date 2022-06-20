@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
 import styles from './time-sheets.module.css';
-import Table from '../shared/table';
-import Button from '../shared/buttons';
-import ModalAddTimeSheet from './addAndModal';
-import ModalTimeSheetEdit from './editAndModal';
-import ModalDeleteConfirmation from './modalDeleteConfirmation';
-import Loader from '../shared/loading';
+import Table from 'components/shared/table';
+import Button from 'components/shared/buttons';
+import ModalAddTimeSheet from 'components/timeSheets/addAndModal';
+import ModalTimeSheetEdit from 'components/timeSheets/editAndModal';
+import ModalDeleteConfirmation from 'components/timeSheets/modalDeleteConfirmation';
+import Loader from 'components/shared/loading';
 import { useDispatch, useSelector } from 'react-redux';
-import { getTimeSheets, deleteTimeSheet } from '../../redux/timesheets/thunks';
+import { getTimeSheets, deleteTimeSheet } from 'redux/timesheets/thunks';
 
 const TimeSheets = () => {
   const [employees, setEmployees] = useState([]);

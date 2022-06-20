@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from '../../shared/buttons';
+import Button from 'components/shared/buttons';
 
 const ListItem = ({ tasksItem }) => {
   return (

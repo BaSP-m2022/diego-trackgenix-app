@@ -1,4 +1,4 @@
-import ProjectsList from './projectsList';
+import ProjectsList from 'components/projects/projectsList';
 import styles from './projects.module.css';
 
 function Projects() {

@@ -1,9 +1,9 @@
-import Table from '../shared/table';
+import Table from 'components/shared/table';
 import styles from './admins.module.css';
-import ModalAdmin from './modalAdmin';
+import ModalAdmin from 'components/admins/modalAdmin';
 import { useState, useEffect } from 'react';
-import ModalSuc from './modalSuccess';
-import ModalError from './modalError';
+import ModalSuc from 'components/admins/modalSuccess';
+import ModalError from 'components/admins/modalError';
 
 function Admins() {
   const [SucModalIsOpen, setSucModalIsOpen] = useState(false);

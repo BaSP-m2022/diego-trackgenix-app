@@ -1,7 +1,17 @@
-import { getProjectsSuccess, getProjectsPending, getProjectsError } from './actions';
-import { addProjectsSuccess, addProjectsPending, addProjectsError } from './actions';
-import { deleteProjectsSuccess, deleteProjectsPending, deleteProjectsError } from './actions';
-import { editProjectsSuccess, editProjectsPending, editProjectsError } from './actions';
+import {
+  getProjectsSuccess,
+  getProjectsPending,
+  getProjectsError,
+  addProjectsSuccess,
+  addProjectsPending,
+  addProjectsError,
+  deleteProjectsSuccess,
+  deleteProjectsPending,
+  deleteProjectsError,
+  editProjectsSuccess,
+  editProjectsPending,
+  editProjectsError
+} from 'redux/projects/actions';
 
 export const getProjects = () => {
   return async (dispatch) => {

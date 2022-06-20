@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './index.module.css';
-import Button from '../../shared/buttons';
-import Modal from '../../shared/modal';
+import Button from 'components/shared/buttons';
+import Modal from 'components/shared/modal';
 
 const EmployeeForm = ({
   addEmployee,

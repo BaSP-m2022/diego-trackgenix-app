@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import styles from './index.module.css';
-import ListEmployee from './list';
-import EmployeeForm from './employeeForm';
-import Button from '../shared/buttons';
+import ListEmployee from 'components/employees/list';
+import EmployeeForm from 'components/employees/employeeForm';
+import Button from 'components/shared/buttons';
 
 const Employees = () => {
   const [employees, saveEmployees] = useState([]);

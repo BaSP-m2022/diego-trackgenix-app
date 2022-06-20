@@ -1,5 +1,5 @@
 import styles from './admins.module.css';
-import AdminItem from './eachAdmin';
+import AdminItem from 'components/admins/eachAdmin';
 
 function List({ admins, setAdmins, fetchAdmins }) {
   return (

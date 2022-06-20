@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './time-sheets.module.css';
 import { useState, useEffect } from 'react';
-import Modal from '../shared/modal';
-import Input from '../shared/input';
-import Button from '../shared/buttons';
-import Dropdown from '../shared/dropdown';
-import { addTimesheet } from '../../redux/timesheets/thunks';
+import Modal from 'components/shared/modal';
+import Input from 'components/shared/input';
+import Button from 'components/shared/buttons';
+import Dropdown from 'components/shared/dropdown';
+import { addTimesheet } from 'redux/timesheets/thunks';
 import { useDispatch, useSelector } from 'react-redux/es/exports';
 const ModalAddTimeSheet = ({ setIsModalAdd, isModalAdd, employees, tasks, projects }) => {
   const [description, setDescription] = useState('');

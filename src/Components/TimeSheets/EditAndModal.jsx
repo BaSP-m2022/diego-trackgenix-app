@@ -1,10 +1,10 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import styles from './time-sheets.module.css';
-import Button from '../shared/buttons';
-import Input from '../shared/input';
-import Modal from '../shared/modal';
-import { editTimeSheet } from '../../redux/timesheets/thunks';
+import Button from 'components/shared/buttons';
+import Input from 'components/shared/input';
+import Modal from 'components/shared/modal';
+import { editTimeSheet } from 'redux/timesheets/thunks';
 import { useDispatch } from 'react-redux/es/exports';
 
 const ModalTimeSheetEdit = ({ isModalEdit, timeSheet, setIsModalEdit }) => {

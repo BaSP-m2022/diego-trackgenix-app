@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './admins.module.css';
 import { useState } from 'react';
-import ModalAdd from './modalAdd';
+import ModalAdd from 'components/admins/modalAdd';
 
 const ModalAdmin = ({ showModal, fetchAdmins, setShowModal }) => {
   const [AddModalIsOpen, setAddModalIsOpen] = useState(false);

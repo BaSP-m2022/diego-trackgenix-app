@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './modal.module.css';
-import Button from '../buttons';
+import Button from 'components/shared/buttons';
 
 const Modal = ({ children, isOpen, setIsOpen, message }) => {
   if (!isOpen) {

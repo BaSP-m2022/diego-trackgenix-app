@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addProject, getProjects, editProject, deleteProject } from '../../redux/projects/thunks';
-import Button from '../shared/buttons';
-import Modal from '../shared/modal';
-import Table from '../shared/table';
-import ManageItem from './manageItem';
-import Loader from '../shared/loading';
+import { addProject, getProjects, editProject, deleteProject } from 'redux/projects/thunks';
+import Button from 'components/shared/buttons';
+import Modal from 'components/shared/modal';
+import Table from 'components/shared/table';
+import ManageItem from 'components/projects/manageItem';
+import Loader from 'components/shared/loading';
 import styles from './projects.module.css';
 
 function ProjectsList() {
