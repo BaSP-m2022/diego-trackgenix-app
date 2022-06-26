@@ -4,6 +4,7 @@ import Table from '../../Shared/Table/Table';
 import Button from '../../Shared/Buttons/buttons';
 import { useState } from 'react';
 import ModalDeleteEmp from '../Modal/modalDelete';
+import { NavLink } from 'react-router-dom';
 
 const ListEmployee = ({ Employees, deleteItem, setIsEditModalOpen, setEditItem }) => {
   const [isModalDeleteOpen, setIsModalDeleteOpen] = useState(false);
@@ -19,7 +20,12 @@ const ListEmployee = ({ Employees, deleteItem, setIsEditModalOpen, setEditItem }
           }}
         />
       ),
-      delete: <Button icons={'delete'} callback={() => onDelete(employee)} />
+      delete: <Button icons={'delete'} callback={() => onDelete(employee)} />,
+      detail: (
+        <NavLink className={styles.link} to={'/employees/' + employee._id}>
+          Detail
+        </NavLink>
+      )
     }));
   };
   const handleEdit = (employee) => {
@@ -46,8 +52,8 @@ const ListEmployee = ({ Employees, deleteItem, setIsEditModalOpen, setEditItem }
       />
       <Table
         data={getData()}
-        objProp={['firstName', 'lastName', 'email', 'edit', 'delete']}
-        headers={['First Name', 'Last name', 'email', 'Edit', 'Delete']}
+        objProp={['firstName', 'lastName', 'email', 'edit', 'delete', 'detail']}
+        headers={['First Name', 'Last name', 'email', 'Edit', 'Delete', 'Detail']}
       />
     </div>
   );
