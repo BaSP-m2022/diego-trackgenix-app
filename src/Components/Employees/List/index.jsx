@@ -4,13 +4,35 @@ import Table from '../../Shared/Table/Table';
 import Button from '../../Shared/Buttons/buttons';
 import { useState } from 'react';
 import ModalDeleteEmp from '../Modal/modalDelete';
-import { NavLink } from 'react-router-dom';
 
-const ListEmployee = ({ Employees, deleteItem, setIsEditModalOpen, setEditItem }) => {
+import { NavLink } from 'react-router-dom';
+import EmployeeForm from '../EmployeeForm';
+import { useSelector } from 'react-redux';
+
+
+const ListEmployee = ({
+  list,
+  deleteItem,
+  setIsEditModalOpen,
+  setEditItem,
+  setIsAddModalOpen,
+  dispatch,
+  isEditModalOpen,
+  isAddModalOpen,
+  addEmployee,
+  editEmployee,
+  editItem,
+  isModalOpen,
+  setIsModalOpen,
+  isAdding,
+  setIsAdding
+}) => {
   const [isModalDeleteOpen, setIsModalDeleteOpen] = useState(false);
   const [employeeItem, setemployeeItem] = useState({});
+  const isLoading = useSelector((state) => state.employees.isLoading);
+  console.log(isLoading);
   const getData = () => {
-    return Employees.map((employee) => ({
+    return list.map((employee) => ({
       ...employee,
       edit: (
         <Button
@@ -28,11 +50,12 @@ const ListEmployee = ({ Employees, deleteItem, setIsEditModalOpen, setEditItem }
       )
     }));
   };
-  const handleEdit = (employee) => {
-    setEditItem(employee);
-    console.log(employee);
-    // alert(`Employee ${employee.firstName} ready for edit`);
-  };
+  console.log(list);
+  // const handleEdit = (employee) => {
+  //   setEditItem(employee);
+  //   console.log(employee);
+  //   // alert(`Employee ${employee.firstName} ready for edit`);
+  // };
 
   const onDelete = (employee) => {
     setIsModalDeleteOpen(true);
@@ -40,15 +63,32 @@ const ListEmployee = ({ Employees, deleteItem, setIsEditModalOpen, setEditItem }
   };
   const onEdit = (employee) => {
     setIsEditModalOpen(true);
-    handleEdit(employee);
+    setEditItem(employee);
   };
   return (
     <div className={styles.container}>
+      <EmployeeForm
+        isEditModalOpen={isEditModalOpen}
+        setIsEditModalOpen={setIsEditModalOpen}
+        isAddModalOpen={isAddModalOpen}
+        setIsAddModalOpen={setIsAddModalOpen}
+        addEmployee={addEmployee}
+        editEmployee={editEmployee}
+        initialValue={editItem}
+        isModalOpen={isModalOpen}
+        setIsModalOpen={setIsModalOpen}
+        isAdding={isAdding}
+        setIsAdding={setIsAdding}
+        dispatch={dispatch}
+        employeeItem={employeeItem}
+        setEditItem={setEditItem}
+      />
       <ModalDeleteEmp
         setIsModalDeleteOpen={setIsModalDeleteOpen}
         isModalDeleteOpen={isModalDeleteOpen}
         employeeItem={employeeItem}
         deleteItem={deleteItem}
+        dispatch={dispatch}
       />
       <Table
         data={getData()}
