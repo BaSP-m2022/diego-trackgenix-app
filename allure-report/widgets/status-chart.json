@@ -1,25 +1,95 @@
 [ {
-  "uid" : "91343bc58d99ed86",
-  "name" : "Verify icon of Button Add",
+  "uid" : "a7658a5fbe5d9a73",
+  "name" : "Enter to Facebook",
   "time" : {
-    "start" : 1656393829616,
-    "stop" : 1656393829717,
-    "duration" : 101
+    "start" : 1656433242791,
+    "stop" : 1656433243019,
+    "duration" : 228
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6e465a455821f425",
-  "name" : "Verify icon of Button Edit",
+  "uid" : "83c13a4ceba3d590",
+  "name" : "Should msg error with First name Invalid",
   "time" : {
-    "start" : 1656393829810,
-    "stop" : 1656393829913,
-    "duration" : 103
+    "start" : 1656433244134,
+    "stop" : 1656433244681,
+    "duration" : 547
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "89c00c6a14054902",
+  "uid" : "c25757170a785ea6",
+  "name" : "Should msg error with Password Invalid",
+  "time" : {
+    "start" : 1656433245633,
+    "stop" : 1656433246210,
+    "duration" : 577
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2758fc6de1c5eeb9",
+  "name" : "Verify Facebook button",
+  "time" : {
+    "start" : 1656433236808,
+    "stop" : 1656433236925,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed57fd54453cbbdf",
+  "name" : "Verify button Edit",
+  "time" : {
+    "start" : 1656433236251,
+    "stop" : 1656433236415,
+    "duration" : 164
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce0efb17a5a48d61",
+  "name" : "Enter to form page",
+  "time" : {
+    "start" : 1656400288856,
+    "stop" : 1656400289094,
+    "duration" : 238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6f3d271ba2dd33e",
+  "name" : "Close form page",
+  "time" : {
+    "start" : 1656394276735,
+    "stop" : 1656394276885,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c19bf33dd48199f",
+  "name" : "Verify Table of contents",
+  "time" : {
+    "start" : 1656433237161,
+    "stop" : 1656433237257,
+    "duration" : 96
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55192cee0fafe41e",
+  "name" : "Delete user",
+  "time" : {
+    "start" : 1656433241769,
+    "stop" : 1656433241931,
+    "duration" : 162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "972aff623d6bbfca",
   "name" : "holanda",
   "time" : {
     "start" : 1656387739423,
@@ -29,57 +99,27 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3d1b6fac74150e88",
-  "name" : "should login with valid credentials",
+  "uid" : "ff7c9536a13a8707",
+  "name" : "Close modal confirmation",
   "time" : {
-    "start" : 1656387702283,
-    "stop" : 1656387705435,
-    "duration" : 3152
+    "start" : 1656433242076,
+    "stop" : 1656433242773,
+    "duration" : 697
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1de773e088074378",
-  "name" : "Verify Facebook button",
+  "uid" : "b5195bdeff0392f6",
+  "name" : "Complete inputs with correctly information",
   "time" : {
-    "start" : 1656391961841,
-    "stop" : 1656391961980,
-    "duration" : 139
+    "start" : 1656394790860,
+    "stop" : 1656394791528,
+    "duration" : 668
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "701a915ec58540f0",
-  "name" : "Verify button Add",
-  "time" : {
-    "start" : 1656393827607,
-    "stop" : 1656393828712,
-    "duration" : 1105
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "59a666e82c2c864b",
-  "name" : "Enter to form page",
-  "time" : {
-    "start" : 1656393662014,
-    "stop" : 1656393662324,
-    "duration" : 310
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d2f23ca99ed6978f",
-  "name" : "Verify Instagram button",
-  "time" : {
-    "start" : 1656391961721,
-    "stop" : 1656391961840,
-    "duration" : 119
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4f00287b508c2cf6",
+  "uid" : "a73d3145c21b43b1",
   "name" : "Verify Entitie SuperAdmin in Navbar",
   "time" : {
     "start" : 1656391961620,
@@ -89,67 +129,97 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "36c3b4be2b78301a",
-  "name" : "Verify Main header",
+  "uid" : "42f87d36a771f98f",
+  "name" : "Should msg error with Email Invalid",
   "time" : {
-    "start" : 1656393829412,
-    "stop" : 1656393829512,
-    "duration" : 100
+    "start" : 1656433245270,
+    "stop" : 1656433245618,
+    "duration" : 348
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f7a404dda6503246",
+  "uid" : "913ef8e9322ab6bb",
+  "name" : "Should msg error with Password Invalid",
+  "time" : {
+    "start" : 1656400290604,
+    "stop" : 1656400291101,
+    "duration" : 497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a08a1101269dc78",
+  "name" : "add User",
+  "time" : {
+    "start" : 1656400289094,
+    "stop" : 1656400289318,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32a7a4f8b25bfed7",
+  "name" : "Close modal confirmation",
+  "time" : {
+    "start" : 1656433241060,
+    "stop" : 1656433241756,
+    "duration" : 696
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66834e27f1ff2666",
+  "name" : "Should msg error with firstname Invalid",
+  "time" : {
+    "start" : 1656399451727,
+    "stop" : 1656399452009,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "807d508cdc5162cf",
+  "name" : "Should msg error with First name Invalid",
+  "time" : {
+    "start" : 1656400289322,
+    "stop" : 1656400289832,
+    "duration" : 510
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e741976a1ab88feb",
   "name" : "Verify Instagram button",
   "time" : {
-    "start" : 1656393829082,
-    "stop" : 1656393829196,
-    "duration" : 114
+    "start" : 1656391961721,
+    "stop" : 1656391961840,
+    "duration" : 119
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "eb64ebee98c119b4",
-  "name" : "Verify Table of contents",
+  "uid" : "7f953b4ab453b9ff",
+  "name" : "Delete second user",
   "time" : {
-    "start" : 1656393829515,
-    "stop" : 1656393829615,
-    "duration" : 100
+    "start" : 1656397147376,
+    "stop" : 1656397147507,
+    "duration" : 131
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8a561299dd35e5e3",
-  "name" : "Verify button Delete",
+  "uid" : "64ea96891da44132",
+  "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1656391961503,
-    "stop" : 1656391961620,
-    "duration" : 117
+    "start" : 1656387702283,
+    "stop" : 1656387705435,
+    "duration" : 3152
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c1ead9e3b5e18d3f",
-  "name" : "Verify Twitter button",
-  "time" : {
-    "start" : 1656393829299,
-    "stop" : 1656393829396,
-    "duration" : 97
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c1ffd3d73e5818c",
-  "name" : "Complete inputs with correctly information",
-  "time" : {
-    "start" : 1656393830214,
-    "stop" : 1656393830729,
-    "duration" : 515
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3f5f982ba1ae647d",
+  "uid" : "cdfe016e08a88c08",
   "name" : "Verify Twitter button",
   "time" : {
     "start" : 1656391961986,
@@ -159,7 +229,37 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e7d31f369fc089db",
+  "uid" : "47538d94611f6be9",
+  "name" : "Should msg error with Last name Invalid",
+  "time" : {
+    "start" : 1656433244681,
+    "stop" : 1656433245269,
+    "duration" : 588
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "691da1815e76dfb8",
+  "name" : "Verify icon of Button Edit",
+  "time" : {
+    "start" : 1656433237504,
+    "stop" : 1656433237644,
+    "duration" : 140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc726d63a4a52251",
+  "name" : "Enter to section edit",
+  "time" : {
+    "start" : 1656433240239,
+    "stop" : 1656433240398,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42ff99de5ac58fe9",
   "name" : "\"before all\" hook",
   "time" : {
     "start" : 1656391959741,
@@ -169,47 +269,37 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4d67478a4b1c3866",
-  "name" : "\"before all\" hook",
+  "uid" : "fd21251bb88b7de5",
+  "name" : "Verify button Add",
   "time" : {
-    "start" : 1656393827598,
-    "stop" : 1656393827599,
-    "duration" : 1
+    "start" : 1656391959750,
+    "stop" : 1656391961390,
+    "duration" : 1640
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a30f30d6c36b19d7",
-  "name" : "Verify Facebook button",
+  "uid" : "70094a4fba571eef",
+  "name" : "Verify Entitie SuperAdmin in Navbar",
   "time" : {
-    "start" : 1656393829197,
-    "stop" : 1656393829298,
-    "duration" : 101
+    "start" : 1656433236567,
+    "stop" : 1656433236695,
+    "duration" : 128
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "22f5d33903b41f71",
-  "name" : "Verify button Delete",
+  "uid" : "c8cefe67e55ef75c",
+  "name" : "Close modal confirmation",
   "time" : {
-    "start" : 1656393828831,
-    "stop" : 1656393828968,
-    "duration" : 137
+    "start" : 1656433239140,
+    "stop" : 1656433239889,
+    "duration" : 749
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4e107bdc61225cbe",
-  "name" : "Verify button Edit",
-  "time" : {
-    "start" : 1656393828713,
-    "stop" : 1656393828831,
-    "duration" : 118
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "20d44ca73b353beb",
+  "uid" : "9e8b7629a75e7590",
   "name" : "Verify button Edit",
   "time" : {
     "start" : 1656391961390,
@@ -219,42 +309,252 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a7bea35d5e2c36ff",
+  "uid" : "48734303559a18a5",
+  "name" : "Verify Main header",
+  "time" : {
+    "start" : 1656433237064,
+    "stop" : 1656433237158,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cd79e548336a2bc",
+  "name" : "Enter to Instagram",
+  "time" : {
+    "start" : 1656433243289,
+    "stop" : 1656433243608,
+    "duration" : 319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2e2764f4f3018b1",
+  "name" : "Verify Twitter button",
+  "time" : {
+    "start" : 1656433236928,
+    "stop" : 1656433237044,
+    "duration" : 116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c28380f95c511f06",
+  "name" : "Complete inputs with invalid information",
+  "time" : {
+    "start" : 1656397146190,
+    "stop" : 1656397146688,
+    "duration" : 498
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e74ed5ca05c3305",
+  "name" : "Complete inputs with valid information",
+  "time" : {
+    "start" : 1656433240398,
+    "stop" : 1656433241060,
+    "duration" : 662
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58a5cda967a6cbf2",
+  "name" : "Close form page using cross",
+  "time" : {
+    "start" : 1656433238012,
+    "stop" : 1656433238179,
+    "duration" : 167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "973751039b94c19b",
+  "name" : "Complete inputs with correctly information",
+  "time" : {
+    "start" : 1656433238367,
+    "stop" : 1656433239140,
+    "duration" : 773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff47f43df86f77c6",
   "name" : "Enter to form page",
   "time" : {
-    "start" : 1656393829923,
-    "stop" : 1656393830213,
-    "duration" : 290
+    "start" : 1656393662014,
+    "stop" : 1656393662324,
+    "duration" : 310
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "68d5a8f8569d4beb",
+  "uid" : "2ce319c2baf5fef6",
+  "name" : "\"before all\" hook",
+  "time" : {
+    "start" : 1656433235008,
+    "stop" : 1656433235010,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31cb1117a55cb161",
+  "name" : "Enter to form page",
+  "time" : {
+    "start" : 1656433237654,
+    "stop" : 1656433238012,
+    "duration" : 358
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef44e830712106e1",
+  "name" : "Enter to Twitter",
+  "time" : {
+    "start" : 1656433243019,
+    "stop" : 1656433243288,
+    "duration" : 269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86ee52803cc03ba1",
+  "name" : "Enter to form page",
+  "time" : {
+    "start" : 1656433243615,
+    "stop" : 1656433243878,
+    "duration" : 263
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fe4f539b06c5e48",
   "name" : "Verify icon of Button Delete",
   "time" : {
-    "start" : 1656393829718,
-    "stop" : 1656393829809,
-    "duration" : 91
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f3e5390e648475d5",
-  "name" : "Verify Entitie SuperAdmin in Navbar",
-  "time" : {
-    "start" : 1656393828969,
-    "stop" : 1656393829081,
+    "start" : 1656433237391,
+    "stop" : 1656433237503,
     "duration" : 112
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fbfdd0210bd0e896",
+  "uid" : "2e86976459008399",
+  "name" : "Should msg error with Last name Invalid",
+  "time" : {
+    "start" : 1656400289833,
+    "stop" : 1656400290314,
+    "duration" : 481
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6e5245823963bc9",
+  "name" : "Verify Instagram button",
+  "time" : {
+    "start" : 1656433236695,
+    "stop" : 1656433236808,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e829e92f6d02647d",
+  "name" : "Should msg error with Email Invalid",
+  "time" : {
+    "start" : 1656400290315,
+    "stop" : 1656400290595,
+    "duration" : 280
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e36194e6862e044e",
+  "name" : "Confirmation to delete",
+  "time" : {
+    "start" : 1656433241932,
+    "stop" : 1656433242076,
+    "duration" : 144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f39127c79c6f0460",
   "name" : "Verify button Add",
   "time" : {
-    "start" : 1656391959750,
-    "stop" : 1656391961390,
-    "duration" : 1640
+    "start" : 1656433235025,
+    "stop" : 1656433236250,
+    "duration" : 1225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "393cc4dcffa448a4",
+  "name" : "add User",
+  "time" : {
+    "start" : 1656433243879,
+    "stop" : 1656433244119,
+    "duration" : 240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f35fc6d335e496b",
+  "name" : "Verify Facebook button",
+  "time" : {
+    "start" : 1656391961841,
+    "stop" : 1656391961980,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8013a43f2f0faf1",
+  "name" : "Verify icon of Button Add",
+  "time" : {
+    "start" : 1656433237257,
+    "stop" : 1656433237391,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "436646f55f8f7613",
+  "name" : "Close section edit using cross ",
+  "time" : {
+    "start" : 1656433240096,
+    "stop" : 1656433240239,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0e04533540e0ff",
+  "name" : "Verify button Delete",
+  "time" : {
+    "start" : 1656433236416,
+    "stop" : 1656433236566,
+    "duration" : 150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c190339a12c52d8e",
+  "name" : "Enter to form page again",
+  "time" : {
+    "start" : 1656433238192,
+    "stop" : 1656433238367,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc329a39e9ebe612",
+  "name" : "Verify button Delete",
+  "time" : {
+    "start" : 1656391961503,
+    "stop" : 1656391961620,
+    "duration" : 117
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "td:nth-child(5) > button > svg > path:nth-child(2)"
-}

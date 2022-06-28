@@ -6,9 +6,6 @@ class MainPage {
     get passwordInput () {return $('div:nth-child(4) > input')}
     get confirmBtn () {return $('#root > div > section > div.modal_overlay__Nah-X > div > form > button > svg')}
     get closeFormBtn () {return $('#root > div > section > div.modal_overlay__Nah-X > div > div > button')}
-    get fiveImg () {return $('#item_2_img_link')}
-    get sixImg () {return $('#item_3_img_link')}
-    get addBagBtn () {return $('#add-to-cart-sauce-labs-backpack')}
     get primaryHeader () {return $('#root > div > header > div')}
     get navBarMain () {return $('#root > div > header > nav')}
     get superAdminBtn () {return $('#root > div > header > nav > ul > li:nth-child(2) > a')}
@@ -17,15 +14,37 @@ class MainPage {
     get instagraminBtn () {return $('a:nth-child(3) > img')}
     get mainFooter () {return $('div.footer_main__nwLSQ')}
     get secondFooter () {return $('div.footer_license__uvxSL')}
-    get editBtn () {return $('#root > div > section > div > table > tbody > tr:nth-child(1) > td:nth-child(5)')}
-    get deleteBtn () {return $('td:nth-child(6) > button > svg')}
+    get editBtn () {return $('#root > div > section > div > table > tbody > tr:nth-child(1) > td:nth-child(5) > button > svg')}
+    get deleteBtn () {return $('#root > div > section > div > table > tbody > tr:nth-child(2) > td:nth-child(6) > button > svg')}
     get okModalBtn () {return $('#root > div > section > div.modal_overlay__Nah-X > div > button')}
     get closeModalBtn () {return $('#root > div > section > div.modal_overlay__Nah-X > div > div > button > svg')}
     get mainTable () {return $('#root > div > section > div > table')}
-    
+    get msgErrorfirstName () {return $('#root > div > section > div.modal_overlay__Nah-X > div > form > div:nth-child(1) > p')}
+    get msgErrorLastName () {return $('#root > div > section > div.modal_overlay__Nah-X > div > form > div:nth-child(2) > p')}
+    get msgErrorEmail () {return $('#root > div > section > div.modal_overlay__Nah-X > div > form > div:nth-child(3) > p')}
+    get passwrodErrorCharacters () {return $('#root > div > section > div.modal_overlay__Nah-X > div > form > div:nth-child(4) > p')}
+   
     
   
 // Setters
+
+async confirmUser (){
+    await this.confirmBtn.click();
+}
+
+async okModal (){
+    await this.okModalBtn.click();
+}
+
+async enterFb (){
+    await this.fbBtn.click();
+}
+async enterTw (){
+    await this.twitterBtn.click();
+}
+async enterIt (){
+    await this.instagraminBtn.click();
+}
 
 async AddUser() {
     await this.addUserBtn.click();
@@ -63,9 +82,16 @@ async openEdit () {
     await this.editBtn.click();
 }
 
+async deleteUser () {
+    await this.deleteBtn.click();
+}
+
+
 async closeModal () {
     await this.closeModalBtn.click();
 }
+
+
 }
 
 module.exports = new MainPage();

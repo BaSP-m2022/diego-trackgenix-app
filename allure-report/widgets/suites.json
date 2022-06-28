@@ -1,8 +1,19 @@
 {
-  "total" : 9,
+  "total" : 14,
   "items" : [ {
     "uid" : "51a70b2ef1751174e702772d164d10c6",
     "name" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "92ad51e81f374150dfe958d97d735cd8",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Check error msgs with empty data",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -23,6 +34,39 @@
       "total" : 7
     }
   }, {
+    "uid" : "37d52b2e86d518d2ae4fa84ada59054e",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Add a user",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "adbb309516a56546e465202670643be3",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Edit user",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "9cb49c39472c158b0aef0b2cba9f4da6",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Check error msgs with wrong data",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
     "uid" : "4bf1116f7873439afb456dbd09ce1bab",
     "name" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed",
     "statistic" : {
@@ -34,63 +78,30 @@
       "total" : 5
     }
   }, {
-    "uid" : "37d52b2e86d518d2ae4fa84ada59054e",
-    "name" : "Automation Test in SUPER ADMIN Entitie: Add a user",
+    "uid" : "2ada074a6961d59dfa4bdc02ccf31fa6",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Delete user",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 4,
       "unknown" : 0,
-      "total" : 2
+      "total" : 4
+    }
+  }, {
+    "uid" : "5f8749141824e97b043f48b6532b2973",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Check if can access social networks",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
     }
   }, {
     "uid" : "ff9b43c34a817b44fa9b6edf61b00141",
     "name" : "My Login application",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "05c19ac0cd116b7db1fcad35bc65d3ff",
-    "name" : "holis",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "0cf8e605b50cfcb8144d68381a30ceba",
-    "name" : "Test Login and entry to swaglabs with corrects params",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "0166adf2890d12e132efbeb25d7db8dc",
-    "name" : "Automation Test in SUPER ADMIN Entitie: Add a user with complete all inputs correctly",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "e6fd915b0e1ad4ba0c7ebdf64cda0573",
-    "name" : "Automation Test in SUPER ADMIN Entitie",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
