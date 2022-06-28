@@ -7,6 +7,7 @@ import Projects from '../Projects';
 import TimeSheets from '../TimeSheets/index';
 import Tasks from '../Tasks/index';
 import Home from '../Home';
+import Login from '../LogIn';
 
 const Routes = () => {
   return (
@@ -18,6 +19,7 @@ const Routes = () => {
       <Route path="/projects" exact component={Projects} />
       <Route path="/time-sheets" exact component={TimeSheets} />
       <Route path="/tasks" exact component={Tasks} />
+      <Route path="/login" exact component={Login} />
     </Switch>
   );
 };
