@@ -1,0 +1,47 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "My Login application",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "f11db965ad9022d1",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656387702283,
+        "stop" : 1656387705435,
+        "duration" : 3152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "f43874cc36d1c5833cbb332fc53460ce"
+  }, {
+    "name" : "holis",
+    "children" : [ {
+      "name" : "holanda",
+      "uid" : "b15f0f18095f47a2",
+      "parentUid" : "8c31775c956f5528b2500b3374707362",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656387739423,
+        "stop" : 1656387742708,
+        "duration" : 3285
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "8c31775c956f5528b2500b3374707362"
+  } ]
+}

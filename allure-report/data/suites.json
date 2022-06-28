@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "My Login application",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "f11db965ad9022d1",
+      "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656387702283,
+        "stop" : 1656387705435,
+        "duration" : 3152
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "ff9b43c34a817b44fa9b6edf61b00141"
+  }, {
+    "name" : "holis",
+    "children" : [ {
+      "name" : "holanda",
+      "uid" : "b15f0f18095f47a2",
+      "parentUid" : "05c19ac0cd116b7db1fcad35bc65d3ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656387739423,
+        "stop" : 1656387742708,
+        "duration" : 3285
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "05c19ac0cd116b7db1fcad35bc65d3ff"
+  } ]
+}
