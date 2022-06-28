@@ -6,6 +6,8 @@ import { useState } from 'react';
 import ModalDeleteEmp from '../Modal/modalDelete';
 import EmployeeForm from '../EmployeeForm';
 import { useSelector } from 'react-redux';
+import { getTimeSheets } from '../../../redux/timesheets/thunks';
+import ModalAddTimeSheet from '../../TimeSheets/AddAndModal';
 
 const ListEmployee = ({
   list,
@@ -26,7 +28,12 @@ const ListEmployee = ({
 }) => {
   const [isModalDeleteOpen, setIsModalDeleteOpen] = useState(false);
   const [employeeItem, setemployeeItem] = useState({});
+
   const isLoading = useSelector((state) => state.employees.isLoading);
+  const [isModalAdd, setIsModalAdd] = useState(false);
+  const [employees, setEmployees] = useState([]);
+  const [tasks, setTasks] = useState([]);
+  const [projects, setProjects] = useState([]);
   console.log(isLoading);
   const getData = () => {
     return list.map((employee) => ({
@@ -87,6 +94,23 @@ const ListEmployee = ({
         objProp={['firstName', 'lastName', 'email', 'edit', 'delete']}
         headers={['First Name', 'Last name', 'email', 'Edit', 'Delete']}
       />
+      <div>
+        <h4>Add Timesheet</h4>
+        <Button
+          icons={'add'}
+          callback={() => {
+            setIsModalAdd(true);
+          }}
+        />
+      </div>
+      <ModalAddTimeSheet
+        isModalAdd={isModalAdd}
+        setIsModalAdd={setIsModalAdd}
+        fetchTimeSheets={() => getTimeSheets()(dispatch)}
+        employees={employees}
+        tasks={tasks}
+        projects={projects}
+      ></ModalAddTimeSheet>
     </div>
   );
 };
