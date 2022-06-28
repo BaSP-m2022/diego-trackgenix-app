@@ -6,14 +6,13 @@ describe('Home Page visual elements', () => {
   });
   it('text elements displayed', async () => {
     await expect(HomePage.header).toBeDisplayed;
-    await expect(HomePage.header).toHaveText('Radium Rocket');
+    await expect(HomePage.header).toHaveText('TrackGENIX');
     await expect(HomePage.title).toBeDisplayed;
-    await expect(HomePage.title).toHaveText('TrackGENIX');
+    await expect(HomePage.title).toHaveText('Home');
     await expect(HomePage.facebook).toBeDisplayed();
     await expect(HomePage.twitter).toBeDisplayed();
     await expect(HomePage.instagram).toBeDisplayed();
-    await expect(HomePage.footer1).toBeDisplayed();
-    await expect(HomePage.footer2).toBeDisplayed();
+    await expect(HomePage.footer).toBeDisplayed();
   });
   it('social media test', async () => {
     await expect(HomePage.facebook).toBeDisplayed();

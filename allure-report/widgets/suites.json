@@ -1,8 +1,63 @@
 {
-  "total" : 1,
+  "total" : 6,
   "items" : [ {
+    "uid" : "c556e88d4b1c4fb81124a0d38cdf053d",
+    "name" : "Home Page visual elements",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "355e6776f651fcd38c0462caa58103fb",
+    "name" : "Timesheet visual objects",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "b56218031366dd2167f7126a019f08eb",
+    "name" : "Test page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "322981fc91c4801911316b58ab1804ee",
+    "name" : "Add timesheet",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "ff9b43c34a817b44fa9b6edf61b00141",
     "name" : "My Login application",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "61bf0f24cfb23a2bcf3cb26602ce5b09",
+    "name" : "Test page interactions",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

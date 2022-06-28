@@ -5,7 +5,7 @@
     "name" : "My Login application",
     "children" : [ {
       "name" : "should login with valid credentials",
-      "uid" : "108ce52364b54f8c",
+      "uid" : "498fea4165377227",
       "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
       "status" : "passed",
       "time" : {
@@ -22,5 +22,365 @@
       "parameters" : [ "chrome-103.0.5060.53" ]
     } ],
     "uid" : "ff9b43c34a817b44fa9b6edf61b00141"
+  }, {
+    "name" : "Test page interactions",
+    "children" : [ {
+      "name" : "Test titles",
+      "uid" : "d709d60aa1e05122",
+      "parentUid" : "61bf0f24cfb23a2bcf3cb26602ce5b09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656382713578,
+        "stop" : 1656382714228,
+        "duration" : 650
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    } ],
+    "uid" : "61bf0f24cfb23a2bcf3cb26602ce5b09"
+  }, {
+    "name" : "Test page",
+    "children" : [ {
+      "name" : "Access to the add form from add employee button correctly",
+      "uid" : "28cf9526d603d36a",
+      "parentUid" : "b56218031366dd2167f7126a019f08eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656383060849,
+        "stop" : 1656383061786,
+        "duration" : 937
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Test titles",
+      "uid" : "e7f747942353b176",
+      "parentUid" : "b56218031366dd2167f7126a019f08eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656384230263,
+        "stop" : 1656384231716,
+        "duration" : 1453
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Access to the add form",
+      "uid" : "fc805f9c17e7eeb4",
+      "parentUid" : "b56218031366dd2167f7126a019f08eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656384231725,
+        "stop" : 1656384232846,
+        "duration" : 1121
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    } ],
+    "uid" : "b56218031366dd2167f7126a019f08eb"
+  }, {
+    "name" : "Timesheet visual objects",
+    "children" : [ {
+      "name" : "Access to the add form",
+      "uid" : "967b53051c1f3e51",
+      "parentUid" : "355e6776f651fcd38c0462caa58103fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656384635444,
+        "stop" : 1656384636655,
+        "duration" : 1211
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Test titles",
+      "uid" : "f6398af57093ea46",
+      "parentUid" : "355e6776f651fcd38c0462caa58103fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391269756,
+        "stop" : 1656391271974,
+        "duration" : 2218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 16,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Buttons Test",
+      "uid" : "ac9468f3f39be3e1",
+      "parentUid" : "355e6776f651fcd38c0462caa58103fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391271976,
+        "stop" : 1656391273480,
+        "duration" : 1504
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 15,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Test titles",
+      "uid" : "703aa498e82f15b6",
+      "parentUid" : "355e6776f651fcd38c0462caa58103fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656422406928,
+        "stop" : 1656422418565,
+        "duration" : 11637
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Buttons Test",
+      "uid" : "5cbe0688141b940b",
+      "parentUid" : "355e6776f651fcd38c0462caa58103fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656422418566,
+        "stop" : 1656422421376,
+        "duration" : 2810
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "355e6776f651fcd38c0462caa58103fb"
+  }, {
+    "name" : "Home Page visual elements",
+    "children" : [ {
+      "name" : "Displayed elements",
+      "uid" : "fd2fe1b1d8a5271e",
+      "parentUid" : "c556e88d4b1c4fb81124a0d38cdf053d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656389415191,
+        "stop" : 1656389416031,
+        "duration" : 840
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "\"before all\" hook",
+      "uid" : "441c8089df416ecf",
+      "parentUid" : "c556e88d4b1c4fb81124a0d38cdf053d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391268605,
+        "stop" : 1656391268607,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 8,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "text elements displayed",
+      "uid" : "3b4ccd2594a1c6df",
+      "parentUid" : "c556e88d4b1c4fb81124a0d38cdf053d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391268627,
+        "stop" : 1656391269853,
+        "duration" : 1226
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "social media test",
+      "uid" : "adb29550a0dc25f3",
+      "parentUid" : "c556e88d4b1c4fb81124a0d38cdf053d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391269854,
+        "stop" : 1656391270440,
+        "duration" : 586
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "entities btns",
+      "uid" : "7487f339f5ebef95",
+      "parentUid" : "c556e88d4b1c4fb81124a0d38cdf053d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391270441,
+        "stop" : 1656391271180,
+        "duration" : 739
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "\"before all\" hook",
+      "uid" : "83dfb3d85e01aea5",
+      "parentUid" : "c556e88d4b1c4fb81124a0d38cdf053d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656422405854,
+        "stop" : 1656422405856,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "text elements displayed",
+      "uid" : "50a66b5057eceab9",
+      "parentUid" : "c556e88d4b1c4fb81124a0d38cdf053d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656422405875,
+        "stop" : 1656422407726,
+        "duration" : 1851
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "social media test",
+      "uid" : "a8babb1e8a8a4d9b",
+      "parentUid" : "c556e88d4b1c4fb81124a0d38cdf053d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656422407727,
+        "stop" : 1656422408354,
+        "duration" : 627
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "entities btns",
+      "uid" : "9e8226b8122c5046",
+      "parentUid" : "c556e88d4b1c4fb81124a0d38cdf053d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656422408355,
+        "stop" : 1656422409439,
+        "duration" : 1084
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "c556e88d4b1c4fb81124a0d38cdf053d"
+  }, {
+    "name" : "Add timesheet",
+    "children" : [ {
+      "name" : "Add timesheet modal",
+      "uid" : "2c51bdbb172d470b",
+      "parentUid" : "322981fc91c4801911316b58ab1804ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391273630,
+        "stop" : 1656391275277,
+        "duration" : 1647
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 13,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.53" ]
+    }, {
+      "name" : "Add timesheet modal",
+      "uid" : "b08c9abb44b1a7ee",
+      "parentUid" : "322981fc91c4801911316b58ab1804ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656422421554,
+        "stop" : 1656422423710,
+        "duration" : 2156
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "322981fc91c4801911316b58ab1804ee"
   } ]
 }

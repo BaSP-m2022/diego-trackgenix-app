@@ -37,13 +37,10 @@ describe('Timesheet visual objects', () => {
     await expect(TimeSheetsPage.deleteBtn).toBeClickable();
   });
 });
-describe('Add timesheet', () => {
-  it('Add timesheet modal', async () => {
-    await TimeSheetsPage.addBtn.click();
-    await expect(TimeSheetsPage.addModal).toBeDisplayed();
-    await expect(TimeSheetsPage.addModalBtn).toBeDisplayed();
-    await expect(TimeSheetsPage.addModal).toBeClickable();
-    await expect(TimeSheetsPage.cancelModalBtn).toBeDisplayed();
-    await expect(TimeSheetsPage.cancelModalBtn).toBeClickable();
-  });
-});
+// describe('Add timesheet', () => {
+//   it('Add timesheet modal', async () => {
+//     await TimeSheetsPage.addBtn.click();
+//     await expect(TimeSheetsPage.addModal).toBeDisplayed();
+//     await expect(TimeSheetsPage.addModalBtn).toBeDisplayed();
+//   });
+// });
