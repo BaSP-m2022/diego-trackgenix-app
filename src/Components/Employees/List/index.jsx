@@ -50,13 +50,6 @@ const ListEmployee = ({
       )
     }));
   };
-  console.log(list);
-  // const handleEdit = (employee) => {
-  //   setEditItem(employee);
-  //   console.log(employee);
-  //   // alert(`Employee ${employee.firstName} ready for edit`);
-  // };
-
   const onDelete = (employee) => {
     setIsModalDeleteOpen(true);
     setemployeeItem(employee);
@@ -93,7 +86,7 @@ const ListEmployee = ({
       <Table
         data={getData()}
         objProp={['firstName', 'lastName', 'email', 'edit', 'delete', 'detail']}
-        headers={['First Name', 'Last name', 'email', 'Edit', 'Delete', 'Detail']}
+        headers={['First Name', 'Last name', 'email', 'Edit', 'Delete', 'Detail']
       />
     </div>
   );

@@ -1,9 +1,11 @@
 .container{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
 }
+
 /* th{
   padding: 10px;
 } */
@@ -11,3 +13,4 @@
   text-decoration: none;
   color: black;
 }
+
