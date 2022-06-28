@@ -7,7 +7,11 @@ import Projects from '../Projects';
 import TimeSheets from '../TimeSheets/index';
 import Tasks from '../Tasks/index';
 import Home from '../Home';
+<<<<<<< Updated upstream
 import Login from '../LogIn';
+=======
+import Login from '../Auth/Login';
+>>>>>>> Stashed changes
 
 const Routes = () => {
   return (
