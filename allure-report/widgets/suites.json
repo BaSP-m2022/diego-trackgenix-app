@@ -1,6 +1,50 @@
 {
-  "total" : 2,
+  "total" : 9,
   "items" : [ {
+    "uid" : "51a70b2ef1751174e702772d164d10c6",
+    "name" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "56806fe7ebfc986e0c26959410e28708",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Check if buttons are clickable",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "4bf1116f7873439afb456dbd09ce1bab",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "37d52b2e86d518d2ae4fa84ada59054e",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Add a user",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "ff9b43c34a817b44fa9b6edf61b00141",
     "name" : "My Login application",
     "statistic" : {
@@ -14,6 +58,39 @@
   }, {
     "uid" : "05c19ac0cd116b7db1fcad35bc65d3ff",
     "name" : "holis",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "0cf8e605b50cfcb8144d68381a30ceba",
+    "name" : "Test Login and entry to swaglabs with corrects params",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "0166adf2890d12e132efbeb25d7db8dc",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Add a user with complete all inputs correctly",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e6fd915b0e1ad4ba0c7ebdf64cda0573",
+    "name" : "Automation Test in SUPER ADMIN Entitie",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

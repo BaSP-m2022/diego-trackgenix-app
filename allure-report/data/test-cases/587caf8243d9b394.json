@@ -1,0 +1,253 @@
+{
+  "uid" : "587caf8243d9b394",
+  "name" : "Verify button Add",
+  "fullName" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable.Verify button Add",
+  "historyId" : "97579475b8d547e30aca278da21fc7b",
+  "time" : {
+    "start" : 1656391850233,
+    "stop" : 1656391851865,
+    "duration" : 1632
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656391850236,
+        "stop" : 1656391850725,
+        "duration" : 489
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "450c8de1940609e9",
+        "name" : "Request",
+        "source" : "450c8de1940609e9.json",
+        "type" : "application/json",
+        "size" : 80
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656391850745,
+        "stop" : 1656391850765,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "de8db1844c74b0ae",
+        "name" : "Request",
+        "source" : "de8db1844c74b0ae.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "148ce8f56fcce297",
+        "name" : "Response",
+        "source" : "148ce8f56fcce297.json",
+        "type" : "application/json",
+        "size" : 1050
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656391851243,
+        "stop" : 1656391851259,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "25fad5bbe6d431b9",
+        "name" : "Request",
+        "source" : "25fad5bbe6d431b9.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "875e76618321373a",
+        "name" : "Response",
+        "source" : "875e76618321373a.json",
+        "type" : "application/json",
+        "size" : 1050
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656391851758,
+        "stop" : 1656391851774,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9ec6f61099fcad44",
+        "name" : "Request",
+        "source" : "9ec6f61099fcad44.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "546cac2ef48c75c8",
+        "name" : "Response",
+        "source" : "546cac2ef48c75c8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656391851776,
+        "stop" : 1656391851787,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "92c3b4c2c596793e",
+        "name" : "Request",
+        "source" : "92c3b4c2c596793e.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "ee45e388842a61d3",
+        "name" : "Response",
+        "source" : "ee45e388842a61d3.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656391851787,
+        "stop" : 1656391851797,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39ee9aa951e52481",
+        "name" : "Request",
+        "source" : "39ee9aa951e52481.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "1846c5f450cd28c4",
+        "name" : "Response",
+        "source" : "1846c5f450cd28c4.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656391851799,
+        "stop" : 1656391851864,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5b1d6e1031e2d79f",
+        "name" : "Screenshot",
+        "source" : "5b1d6e1031e2d79f.png",
+        "type" : "image/png",
+        "size" : 34346
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "42a78a46fd3c2ab7",
+      "name" : "Response",
+      "source" : "42a78a46fd3c2ab7.json",
+      "type" : "application/json",
+      "size" : 1050
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 13
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify button Add"
+  }, {
+    "name" : "package",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "587caf8243d9b394.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

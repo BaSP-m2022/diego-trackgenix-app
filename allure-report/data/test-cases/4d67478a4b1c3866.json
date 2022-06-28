@@ -1,0 +1,125 @@
+{
+  "uid" : "4d67478a4b1c3866",
+  "name" : "\"before all\" hook",
+  "fullName" : "Automation Test in SUPER ADMIN Entitie.\"before all\" hook",
+  "historyId" : "166fd0bfe811fdd6e0fc5c799c60bdf2",
+  "time" : {
+    "start" : 1656393827598,
+    "stop" : 1656393827599,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1656393827599,
+        "stop" : 0,
+        "duration" : -1656393827599
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "87d8ec9796d4d7e2",
+        "name" : "Request",
+        "source" : "87d8ec9796d4d7e2.json",
+        "type" : "application/json",
+        "size" : 67
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Test in SUPER ADMIN Entitie"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Test in SUPER ADMIN Entitie"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Automation Test in SUPER ADMIN Entitie"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b0d7594e87e39ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393767856,
+        "stop" : 1656393767857,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9fdd7bf7722e749c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393659029,
+        "stop" : 1656393659030,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "13f5e4653622bcc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656392756429,
+        "stop" : 1656392756430,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4204f8eba18fc147",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656392731726,
+        "stop" : 1656392731727,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d67478a4b1c3866.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

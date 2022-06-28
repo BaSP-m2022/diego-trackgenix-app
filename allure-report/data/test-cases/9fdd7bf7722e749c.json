@@ -1,0 +1,91 @@
+{
+  "uid" : "9fdd7bf7722e749c",
+  "name" : "\"before all\" hook",
+  "fullName" : "Automation Test in SUPER ADMIN Entitie.\"before all\" hook",
+  "historyId" : "166fd0bfe811fdd6e0fc5c799c60bdf2",
+  "time" : {
+    "start" : 1656393659029,
+    "stop" : 1656393659030,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1656393659031,
+        "stop" : 0,
+        "duration" : -1656393659031
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "399a5f2ce711b9c4",
+        "name" : "Request",
+        "source" : "399a5f2ce711b9c4.json",
+        "type" : "application/json",
+        "size" : 67
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Test in SUPER ADMIN Entitie"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Test in SUPER ADMIN Entitie"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Automation Test in SUPER ADMIN Entitie"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9fdd7bf7722e749c.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

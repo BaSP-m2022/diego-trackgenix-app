@@ -1,0 +1,62 @@
+{
+  "uid" : "7fa68aa927e5ef45",
+  "name" : "Verify icon of Button Delete",
+  "fullName" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed.Verify icon of Button Delete",
+  "historyId" : "762ae39c6161ff51e977b8f79af46b76",
+  "time" : {
+    "start" : 1656392737565,
+    "stop" : 1656392737566,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "ReferenceError: HomePage is not defined",
+  "statusTrace" : "ReferenceError: HomePage is not defined\n                    at UserContext.<anonymous> (C:\\Users\\nicol\\OneDrive\\Escritorio\\diego-trackgenix-app\\test\\specs\\super_admin.spec.js:41:26)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify icon of Button Delete"
+  }, {
+    "name" : "package",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7fa68aa927e5ef45.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

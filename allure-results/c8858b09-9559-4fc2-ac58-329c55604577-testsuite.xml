@@ -1,0 +1,147 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656394483744' stop='1656394488896'>
+    <name>Automation Test in SUPER ADMIN Entitie: Edit user</name>
+    <title>Automation Test in SUPER ADMIN Entitie: Edit user</title>
+    <test-cases>
+        <test-case start='1656394483751' status='failed' stop='1656394488584'>
+            <name>Enter to section edit</name>
+            <title>Enter to section edit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps>
+                <step start='1656394483751' status='passed' stop='1656394483761'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d6a77ea1-a499-4652-be74-07c6fc7ad019-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='3b9a1cc2-ff9e-4619-86e9-33bd466076bf-attachment.json' type='application/json' size='1093'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656394483763' status='passed' stop='1656394483777'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='7bef1033-fa0f-44d6-9c73-93a117d14c97-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='7201def6-ac04-4ef5-9641-9ca83562a5ac-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656394484276' status='passed' stop='1656394484287'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='8b6ff3cb-2c37-4e7a-997d-5ad46256dbce-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='e7ac54ba-0a03-4f3f-bb7b-cd8831bfbab0-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656394484289' status='passed' stop='1656394484300'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4de915d9-652f-4a16-abe7-348fda19342e-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='e28bce43-7646-4dbe-86d5-3c0dab822ba3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656394484302' status='failed' stop='1656394488584'>
+                    <name>POST /session/:sessionId/element/8c62ddca-69bb-4bbf-bb5e-e41e7777ca1f/click</name>
+                    <title>POST /session/:sessionId/element/8c62ddca-69bb-4bbf-bb5e-e41e7777ca1f/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: element click intercepted: Element &lt;td>...&lt;/td> is not clickable at point (744, 369). Other element would receive the click: &lt;div class="modal_overlay__Nah-X">...&lt;/div>
+                  (Session info: chrome=103.0.5060.66)</message>
+                <stack-trace>element click intercepted: element click intercepted: Element &lt;td>...&lt;/td> is not clickable at point (744, 369). Other element would receive the click: &lt;div class="modal_overlay__Nah-X">...&lt;/div>
+                  (Session info: chrome=103.0.5060.66)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656394488584' status='passed' stop='1656394488729'>
+            <name>Close section edit using cross </name>
+            <title>Close section edit using cross </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps>
+                <step start='1656394488585' status='passed' stop='1656394488598'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='630a75f8-8fa8-4481-ba3a-d3460919c2b8-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='602d47c5-a3b0-450f-b3bf-fc7f36d3a8d7-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656394488600' status='passed' stop='1656394488634'>
+                    <name>POST /session/:sessionId/element/2f9689ed-ab25-47e4-85a7-f43097bbb163/click</name>
+                    <title>POST /session/:sessionId/element/2f9689ed-ab25-47e4-85a7-f43097bbb163/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1656394488634' status='passed' stop='1656394488729'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='3c26a881-add8-4fe7-8069-5f8f04cd652b-attachment.png' type='image/png' size='34057'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1656394488729' status='passed' stop='1656394488883'>
+            <name>Enter to section edit</name>
+            <title>Enter to section edit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps>
+                <step start='1656394488730' status='passed' stop='1656394488740'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='99429c2f-0038-4aa4-bf1b-03468b472093-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='5db12b6c-ae01-45b5-8133-a027c6437271-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656394488742' status='passed' stop='1656394488773'>
+                    <name>POST /session/:sessionId/element/8c62ddca-69bb-4bbf-bb5e-e41e7777ca1f/click</name>
+                    <title>POST /session/:sessionId/element/8c62ddca-69bb-4bbf-bb5e-e41e7777ca1f/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1656394488773' status='passed' stop='1656394488882'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='08eaa9ef-bab8-481c-b106-799413235ed6-attachment.png' type='image/png' size='43444'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

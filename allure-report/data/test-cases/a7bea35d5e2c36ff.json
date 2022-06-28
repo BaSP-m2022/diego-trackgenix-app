@@ -1,0 +1,143 @@
+{
+  "uid" : "a7bea35d5e2c36ff",
+  "name" : "Enter to form page",
+  "fullName" : "Automation Test in SUPER ADMIN Entitie: Add a user.Enter to form page",
+  "historyId" : "4331988263700395334ebef38c2b5787",
+  "time" : {
+    "start" : 1656393829923,
+    "stop" : 1656393830213,
+    "duration" : 290
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656393829924,
+        "stop" : 1656393829936,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "afea2c3c05f1d4b5",
+        "name" : "Request",
+        "source" : "afea2c3c05f1d4b5.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "9549f3582a38b75",
+        "name" : "Response",
+        "source" : "9549f3582a38b75.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/d598ffaf-027f-4fd8-9658-d876811819b3/click",
+      "time" : {
+        "start" : 1656393829940,
+        "stop" : 1656393830002,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656393830003,
+        "stop" : 1656393830213,
+        "duration" : 210
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "405ef8728777a6e5",
+        "name" : "Screenshot",
+        "source" : "405ef8728777a6e5.png",
+        "type" : "image/png",
+        "size" : 43164
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Add a user"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Add a user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Enter to form page"
+  }, {
+    "name" : "package",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Add a user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "961a6019648e9d6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393770788,
+        "stop" : 1656393771183,
+        "duration" : 395
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7bea35d5e2c36ff.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

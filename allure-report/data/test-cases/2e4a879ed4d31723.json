@@ -1,0 +1,62 @@
+{
+  "uid" : "2e4a879ed4d31723",
+  "name" : "Verify icon of Button Edit",
+  "fullName" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed.Verify icon of Button Edit",
+  "historyId" : "7b4bf613060557df3376e852c6f9dd9b",
+  "time" : {
+    "start" : 1656392737566,
+    "stop" : 1656392737576,
+    "duration" : 10
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "ReferenceError: HomePage is not defined",
+  "statusTrace" : "ReferenceError: HomePage is not defined\n                    at UserContext.<anonymous> (C:\\Users\\nicol\\OneDrive\\Escritorio\\diego-trackgenix-app\\test\\specs\\super_admin.spec.js:44:26)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify icon of Button Edit"
+  }, {
+    "name" : "package",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e4a879ed4d31723.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

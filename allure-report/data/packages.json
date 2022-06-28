@@ -5,7 +5,7 @@
     "name" : "My Login application",
     "children" : [ {
       "name" : "should login with valid credentials",
-      "uid" : "f11db965ad9022d1",
+      "uid" : "3d1b6fac74150e88",
       "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
       "status" : "passed",
       "time" : {
@@ -26,7 +26,7 @@
     "name" : "holis",
     "children" : [ {
       "name" : "holanda",
-      "uid" : "b15f0f18095f47a2",
+      "uid" : "89c00c6a14054902",
       "parentUid" : "8c31775c956f5528b2500b3374707362",
       "status" : "passed",
       "time" : {
@@ -43,5 +43,441 @@
       "parameters" : [ "chrome-103.0.5060.66" ]
     } ],
     "uid" : "8c31775c956f5528b2500b3374707362"
+  }, {
+    "name" : "Test Login and entry to swaglabs with corrects params",
+    "children" : [ {
+      "name" : "\"before all\" hook",
+      "uid" : "e7d31f369fc089db",
+      "parentUid" : "ccbf67015be668acb4223335bff5130b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391959741,
+        "stop" : 1656391959742,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "ccbf67015be668acb4223335bff5130b"
+  }, {
+    "name" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable",
+    "children" : [ {
+      "name" : "Verify button Add",
+      "uid" : "fbfdd0210bd0e896",
+      "parentUid" : "32d96b6f2a84bc447a76266717aefdad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391959750,
+        "stop" : 1656391961390,
+        "duration" : 1640
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify button Edit",
+      "uid" : "20d44ca73b353beb",
+      "parentUid" : "32d96b6f2a84bc447a76266717aefdad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391961390,
+        "stop" : 1656391961502,
+        "duration" : 112
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify button Delete",
+      "uid" : "8a561299dd35e5e3",
+      "parentUid" : "32d96b6f2a84bc447a76266717aefdad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391961503,
+        "stop" : 1656391961620,
+        "duration" : 117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify Entitie SuperAdmin in Navbar",
+      "uid" : "4f00287b508c2cf6",
+      "parentUid" : "32d96b6f2a84bc447a76266717aefdad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391961620,
+        "stop" : 1656391961721,
+        "duration" : 101
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify Instagram button",
+      "uid" : "d2f23ca99ed6978f",
+      "parentUid" : "32d96b6f2a84bc447a76266717aefdad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391961721,
+        "stop" : 1656391961840,
+        "duration" : 119
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify Facebook button",
+      "uid" : "1de773e088074378",
+      "parentUid" : "32d96b6f2a84bc447a76266717aefdad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391961841,
+        "stop" : 1656391961980,
+        "duration" : 139
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify Twitter button",
+      "uid" : "3f5f982ba1ae647d",
+      "parentUid" : "32d96b6f2a84bc447a76266717aefdad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391961986,
+        "stop" : 1656391962104,
+        "duration" : 118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "32d96b6f2a84bc447a76266717aefdad"
+  }, {
+    "name" : "Automation Test in SUPER ADMIN Entitie: Add a user with complete all inputs correctly",
+    "children" : [ {
+      "name" : "Enter to form page",
+      "uid" : "59a666e82c2c864b",
+      "parentUid" : "903fae64885307878e0fe48d56f633ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393662014,
+        "stop" : 1656393662324,
+        "duration" : 310
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "903fae64885307878e0fe48d56f633ee"
+  }, {
+    "name" : "Automation Test in SUPER ADMIN Entitie",
+    "children" : [ {
+      "name" : "\"before all\" hook",
+      "uid" : "4d67478a4b1c3866",
+      "parentUid" : "552c4ed133a76ae1180c10ddae9c3c66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393827598,
+        "stop" : 1656393827599,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "552c4ed133a76ae1180c10ddae9c3c66"
+  }, {
+    "name" : "Automation Test in SUPER ADMIN Entitie: Check if buttons are clickable",
+    "children" : [ {
+      "name" : "Verify button Add",
+      "uid" : "701a915ec58540f0",
+      "parentUid" : "6cf0e8f2f5baa4fe7215be6d08516150",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393827607,
+        "stop" : 1656393828712,
+        "duration" : 1105
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify button Edit",
+      "uid" : "4e107bdc61225cbe",
+      "parentUid" : "6cf0e8f2f5baa4fe7215be6d08516150",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393828713,
+        "stop" : 1656393828831,
+        "duration" : 118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify button Delete",
+      "uid" : "22f5d33903b41f71",
+      "parentUid" : "6cf0e8f2f5baa4fe7215be6d08516150",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393828831,
+        "stop" : 1656393828968,
+        "duration" : 137
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify Entitie SuperAdmin in Navbar",
+      "uid" : "f3e5390e648475d5",
+      "parentUid" : "6cf0e8f2f5baa4fe7215be6d08516150",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393828969,
+        "stop" : 1656393829081,
+        "duration" : 112
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify Instagram button",
+      "uid" : "f7a404dda6503246",
+      "parentUid" : "6cf0e8f2f5baa4fe7215be6d08516150",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393829082,
+        "stop" : 1656393829196,
+        "duration" : 114
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify Facebook button",
+      "uid" : "a30f30d6c36b19d7",
+      "parentUid" : "6cf0e8f2f5baa4fe7215be6d08516150",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393829197,
+        "stop" : 1656393829298,
+        "duration" : 101
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify Twitter button",
+      "uid" : "c1ead9e3b5e18d3f",
+      "parentUid" : "6cf0e8f2f5baa4fe7215be6d08516150",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393829299,
+        "stop" : 1656393829396,
+        "duration" : 97
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "6cf0e8f2f5baa4fe7215be6d08516150"
+  }, {
+    "name" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed",
+    "children" : [ {
+      "name" : "Verify Main header",
+      "uid" : "36c3b4be2b78301a",
+      "parentUid" : "41a51b378642a553eeece088fdd08774",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393829412,
+        "stop" : 1656393829512,
+        "duration" : 100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify Table of contents",
+      "uid" : "eb64ebee98c119b4",
+      "parentUid" : "41a51b378642a553eeece088fdd08774",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393829515,
+        "stop" : 1656393829615,
+        "duration" : 100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify icon of Button Add",
+      "uid" : "91343bc58d99ed86",
+      "parentUid" : "41a51b378642a553eeece088fdd08774",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393829616,
+        "stop" : 1656393829717,
+        "duration" : 101
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify icon of Button Delete",
+      "uid" : "68d5a8f8569d4beb",
+      "parentUid" : "41a51b378642a553eeece088fdd08774",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393829718,
+        "stop" : 1656393829809,
+        "duration" : 91
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Verify icon of Button Edit",
+      "uid" : "6e465a455821f425",
+      "parentUid" : "41a51b378642a553eeece088fdd08774",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393829810,
+        "stop" : 1656393829913,
+        "duration" : 103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "41a51b378642a553eeece088fdd08774"
+  }, {
+    "name" : "Automation Test in SUPER ADMIN Entitie: Add a user",
+    "children" : [ {
+      "name" : "Enter to form page",
+      "uid" : "a7bea35d5e2c36ff",
+      "parentUid" : "4545452b8d662afc70cb9360c54625ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393829923,
+        "stop" : 1656393830213,
+        "duration" : 290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    }, {
+      "name" : "Complete inputs with correctly information",
+      "uid" : "c1ffd3d73e5818c",
+      "parentUid" : "4545452b8d662afc70cb9360c54625ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393830214,
+        "stop" : 1656393830729,
+        "duration" : 515
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-103.0.5060.66" ]
+    } ],
+    "uid" : "4545452b8d662afc70cb9360c54625ea"
   } ]
 }

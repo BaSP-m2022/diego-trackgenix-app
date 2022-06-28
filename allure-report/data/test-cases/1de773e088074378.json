@@ -1,0 +1,182 @@
+{
+  "uid" : "1de773e088074378",
+  "name" : "Verify Facebook button",
+  "fullName" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable.Verify Facebook button",
+  "historyId" : "4bf384a414055c75542c9d5a1c70ea17",
+  "time" : {
+    "start" : 1656391961841,
+    "stop" : 1656391961980,
+    "duration" : 139
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656391961842,
+        "stop" : 1656391961861,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "eb6d4b7a159499bf",
+        "name" : "Request",
+        "source" : "eb6d4b7a159499bf.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "1e5cc97cfc1c774d",
+        "name" : "Response",
+        "source" : "1e5cc97cfc1c774d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656391961864,
+        "stop" : 1656391961873,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c97b9b8b69c0cc75",
+        "name" : "Request",
+        "source" : "c97b9b8b69c0cc75.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "54f0cc95179c6280",
+        "name" : "Response",
+        "source" : "54f0cc95179c6280.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656391961874,
+        "stop" : 1656391961892,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "53e0c2579b766ca0",
+        "name" : "Request",
+        "source" : "53e0c2579b766ca0.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "57e13f400fed9f31",
+        "name" : "Response",
+        "source" : "57e13f400fed9f31.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656391961893,
+        "stop" : 1656391961980,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c589d30ec1283e5c",
+        "name" : "Screenshot",
+        "source" : "c589d30ec1283e5c.png",
+        "type" : "image/png",
+        "size" : 34346
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Facebook button"
+  }, {
+    "name" : "package",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3b2ca664c7a2b648",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391862246,
+        "stop" : 1656391862345,
+        "duration" : 99
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1de773e088074378.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

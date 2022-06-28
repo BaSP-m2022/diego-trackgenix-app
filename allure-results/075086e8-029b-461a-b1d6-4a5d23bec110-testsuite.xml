@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656393662014' stop='1656393662324'>
+    <name>Automation Test in SUPER ADMIN Entitie: Add a user with complete all inputs correctly</name>
+    <title>Automation Test in SUPER ADMIN Entitie: Add a user with complete all inputs correctly</title>
+    <test-cases>
+        <test-case start='1656393662014' status='passed' stop='1656393662324'>
+            <name>Enter to form page</name>
+            <title>Enter to form page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps>
+                <step start='1656393662014' status='passed' stop='1656393662023'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4246615d-e1c2-4e46-befd-c731a91beb4e-attachment.json' type='application/json' size='80'/>
+                        <attachment title='Response' source='4727352c-7d20-4998-b789-9745c5a65cb1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656393662026' status='passed' stop='1656393662089'>
+                    <name>POST /session/:sessionId/element/d4989106-4ead-44ab-a959-b251b0d43dd2/click</name>
+                    <title>POST /session/:sessionId/element/d4989106-4ead-44ab-a959-b251b0d43dd2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1656393662089' status='passed' stop='1656393662324'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e4accc21-f9f7-4a5b-bc75-a9767f8347ef-attachment.png' type='image/png' size='43164'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

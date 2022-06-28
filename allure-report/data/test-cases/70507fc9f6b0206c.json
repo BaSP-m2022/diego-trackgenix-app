@@ -1,0 +1,145 @@
+{
+  "uid" : "70507fc9f6b0206c",
+  "name" : "Verify icon of Button Edit",
+  "fullName" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed.Verify icon of Button Edit",
+  "historyId" : "7b4bf613060557df3376e852c6f9dd9b",
+  "time" : {
+    "start" : 1656392758661,
+    "stop" : 1656392758772,
+    "duration" : 111
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656392758665,
+        "stop" : 1656392758675,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2b406c70097fc1fa",
+        "name" : "Request",
+        "source" : "2b406c70097fc1fa.json",
+        "type" : "application/json",
+        "size" : 123
+      }, {
+        "uid" : "3d82ec030137bc28",
+        "name" : "Response",
+        "source" : "3d82ec030137bc28.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656392758677,
+        "stop" : 1656392758690,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "76091b73b024a4ec",
+        "name" : "Request",
+        "source" : "76091b73b024a4ec.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "4cdd3905c7ed55c8",
+        "name" : "Response",
+        "source" : "4cdd3905c7ed55c8.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656392758691,
+        "stop" : 1656392758771,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb3d6d6d25419250",
+        "name" : "Screenshot",
+        "source" : "cb3d6d6d25419250.png",
+        "type" : "image/png",
+        "size" : 34205
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify icon of Button Edit"
+  }, {
+    "name" : "package",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "70507fc9f6b0206c.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

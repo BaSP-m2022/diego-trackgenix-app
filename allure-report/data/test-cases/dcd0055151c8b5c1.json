@@ -1,0 +1,145 @@
+{
+  "uid" : "dcd0055151c8b5c1",
+  "name" : "Verify icon of Button Delete",
+  "fullName" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed.Verify icon of Button Delete",
+  "historyId" : "762ae39c6161ff51e977b8f79af46b76",
+  "time" : {
+    "start" : 1656392758575,
+    "stop" : 1656392758660,
+    "duration" : 85
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656392758575,
+        "stop" : 1656392758583,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9fb12d2409eb0e00",
+        "name" : "Request",
+        "source" : "9fb12d2409eb0e00.json",
+        "type" : "application/json",
+        "size" : 74
+      }, {
+        "uid" : "cdaa7e17da441cb8",
+        "name" : "Response",
+        "source" : "cdaa7e17da441cb8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656392758585,
+        "stop" : 1656392758594,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab68a844b166b640",
+        "name" : "Request",
+        "source" : "ab68a844b166b640.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "9356794ca9812acb",
+        "name" : "Response",
+        "source" : "9356794ca9812acb.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656392758595,
+        "stop" : 1656392758660,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5104edd769117ff8",
+        "name" : "Screenshot",
+        "source" : "5104edd769117ff8.png",
+        "type" : "image/png",
+        "size" : 34205
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify icon of Button Delete"
+  }, {
+    "name" : "package",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dcd0055151c8b5c1.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

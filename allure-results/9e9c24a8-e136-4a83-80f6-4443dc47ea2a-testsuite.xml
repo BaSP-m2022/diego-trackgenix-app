@@ -1,0 +1,121 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656394602091' stop='1656394602513'>
+    <name>Automation Test in SUPER ADMIN Entitie: Edit user</name>
+    <title>Automation Test in SUPER ADMIN Entitie: Edit user</title>
+    <test-cases>
+        <test-case start='1656394602091' status='passed' stop='1656394602230'>
+            <name>Enter to section edit</name>
+            <title>Enter to section edit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps>
+                <step start='1656394602091' status='passed' stop='1656394602101'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='536ba945-dec2-48e3-86fe-b3462bd35045-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='82331b59-c7f0-47a7-9912-7fcef1c20491-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656394602103' status='passed' stop='1656394602143'>
+                    <name>POST /session/:sessionId/element/e733fcd8-cb8b-4be2-977f-2e5f7de779f8/click</name>
+                    <title>POST /session/:sessionId/element/e733fcd8-cb8b-4be2-977f-2e5f7de779f8/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1656394602143' status='passed' stop='1656394602229'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='06fd8408-772e-44df-bec1-19a56c87302a-attachment.png' type='image/png' size='44126'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1656394602230' status='passed' stop='1656394602361'>
+            <name>Close section edit using cross </name>
+            <title>Close section edit using cross </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps>
+                <step start='1656394602230' status='passed' stop='1656394602239'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0c64e623-70d2-4567-8587-69b2183100e6-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='99df979b-58be-4b60-9685-3a6544f8dd39-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656394602241' status='passed' stop='1656394602275'>
+                    <name>POST /session/:sessionId/element/76cb91fe-823a-4a03-b590-cd47b56fe54e/click</name>
+                    <title>POST /session/:sessionId/element/76cb91fe-823a-4a03-b590-cd47b56fe54e/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1656394602275' status='passed' stop='1656394602361'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0361a7c4-50f8-415d-b07f-38b85a1cf0f7-attachment.png' type='image/png' size='34146'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1656394602361' status='passed' stop='1656394602513'>
+            <name>Enter to section edit</name>
+            <title>Enter to section edit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps>
+                <step start='1656394602368' status='passed' stop='1656394602378'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='17d737e2-c48a-479f-a07c-203bda0fc712-attachment.json' type='application/json' size='123'/>
+                        <attachment title='Response' source='326f0315-f49d-4820-823d-df3a210126a2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1656394602380' status='passed' stop='1656394602410'>
+                    <name>POST /session/:sessionId/element/e733fcd8-cb8b-4be2-977f-2e5f7de779f8/click</name>
+                    <title>POST /session/:sessionId/element/e733fcd8-cb8b-4be2-977f-2e5f7de779f8/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1656394602410' status='passed' stop='1656394602512'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ac1951af-5dd3-4809-9d16-486e73316357-attachment.png' type='image/png' size='44126'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

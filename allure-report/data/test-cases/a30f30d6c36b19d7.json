@@ -1,0 +1,206 @@
+{
+  "uid" : "a30f30d6c36b19d7",
+  "name" : "Verify Facebook button",
+  "fullName" : "Automation Test in SUPER ADMIN Entitie: Check if buttons are clickable.Verify Facebook button",
+  "historyId" : "efaff7bf94ce1c85b84c4b6f148efc2c",
+  "time" : {
+    "start" : 1656393829197,
+    "stop" : 1656393829298,
+    "duration" : 101
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656393829198,
+        "stop" : 1656393829209,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cc5886ed0051af33",
+        "name" : "Request",
+        "source" : "cc5886ed0051af33.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "bb54eff309647f6",
+        "name" : "Response",
+        "source" : "bb54eff309647f6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656393829210,
+        "stop" : 1656393829219,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b032f6c38edec815",
+        "name" : "Request",
+        "source" : "b032f6c38edec815.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "34eef5fcf249a3d6",
+        "name" : "Response",
+        "source" : "34eef5fcf249a3d6.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656393829219,
+        "stop" : 1656393829228,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b1cd3002b042e640",
+        "name" : "Request",
+        "source" : "b1cd3002b042e640.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "e399eafd53884445",
+        "name" : "Response",
+        "source" : "e399eafd53884445.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656393829228,
+        "stop" : 1656393829298,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "625689b6ece4e2d1",
+        "name" : "Screenshot",
+        "source" : "625689b6ece4e2d1.png",
+        "type" : "image/png",
+        "size" : 34202
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if buttons are clickable"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if buttons are clickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Facebook button"
+  }, {
+    "name" : "package",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if buttons are clickable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8027d7cc8d06376a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393769787,
+        "stop" : 1656393769912,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "5a8bd3d753695c10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393661159,
+        "stop" : 1656393661275,
+        "duration" : 116
+      }
+    }, {
+      "uid" : "a011ab8af60898d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656392758027,
+        "stop" : 1656392758148,
+        "duration" : 121
+      }
+    }, {
+      "uid" : "8880efd9133e2a0b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656392737299,
+        "stop" : 1656392737401,
+        "duration" : 102
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a30f30d6c36b19d7.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

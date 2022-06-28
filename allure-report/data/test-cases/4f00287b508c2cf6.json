@@ -1,0 +1,182 @@
+{
+  "uid" : "4f00287b508c2cf6",
+  "name" : "Verify Entitie SuperAdmin in Navbar",
+  "fullName" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable.Verify Entitie SuperAdmin in Navbar",
+  "historyId" : "9dc36381213366ef1179c346c508ced0",
+  "time" : {
+    "start" : 1656391961620,
+    "stop" : 1656391961721,
+    "duration" : 101
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656391961621,
+        "stop" : 1656391961633,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3cdf35865366eeba",
+        "name" : "Request",
+        "source" : "3cdf35865366eeba.json",
+        "type" : "application/json",
+        "size" : 97
+      }, {
+        "uid" : "6c596cce30e10e92",
+        "name" : "Response",
+        "source" : "6c596cce30e10e92.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656391961634,
+        "stop" : 1656391961643,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "908c8d12ab249f91",
+        "name" : "Request",
+        "source" : "908c8d12ab249f91.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "751f4493771614f8",
+        "name" : "Response",
+        "source" : "751f4493771614f8.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656391961643,
+        "stop" : 1656391961652,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "545cdcd31373122c",
+        "name" : "Request",
+        "source" : "545cdcd31373122c.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "72db94a51c56dc9",
+        "name" : "Response",
+        "source" : "72db94a51c56dc9.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656391961653,
+        "stop" : 1656391961721,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "61275fc48ebca322",
+        "name" : "Screenshot",
+        "source" : "61275fc48ebca322.png",
+        "type" : "image/png",
+        "size" : 34346
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Entitie SuperAdmin in Navbar"
+  }, {
+    "name" : "package",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "51ee948723919cf6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656391862032,
+        "stop" : 1656391862132,
+        "duration" : 100
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f00287b508c2cf6.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

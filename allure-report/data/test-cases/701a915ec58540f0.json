@@ -1,0 +1,260 @@
+{
+  "uid" : "701a915ec58540f0",
+  "name" : "Verify button Add",
+  "fullName" : "Automation Test in SUPER ADMIN Entitie: Check if buttons are clickable.Verify button Add",
+  "historyId" : "1256a9c1ce894e379b59a65b1af0cea7",
+  "time" : {
+    "start" : 1656393827607,
+    "stop" : 1656393828712,
+    "duration" : 1105
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656393827610,
+        "stop" : 1656393828071,
+        "duration" : 461
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d4ed6fac028c0db7",
+        "name" : "Request",
+        "source" : "d4ed6fac028c0db7.json",
+        "type" : "application/json",
+        "size" : 80
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656393828093,
+        "stop" : 1656393828113,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "878a57a808402fd7",
+        "name" : "Request",
+        "source" : "878a57a808402fd7.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "d96fbf13e89dd637",
+        "name" : "Response",
+        "source" : "d96fbf13e89dd637.json",
+        "type" : "application/json",
+        "size" : 1050
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656393828594,
+        "stop" : 1656393828608,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a09dae8aea66fc82",
+        "name" : "Request",
+        "source" : "a09dae8aea66fc82.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "94cec30bc26996ec",
+        "name" : "Response",
+        "source" : "94cec30bc26996ec.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656393828610,
+        "stop" : 1656393828623,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "44dd03dfd4d4ebe7",
+        "name" : "Request",
+        "source" : "44dd03dfd4d4ebe7.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "3b4a19d14e061cb",
+        "name" : "Response",
+        "source" : "3b4a19d14e061cb.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656393828623,
+        "stop" : 1656393828633,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "159a34f5c9e7777e",
+        "name" : "Request",
+        "source" : "159a34f5c9e7777e.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "1a033d84cd49e2c2",
+        "name" : "Response",
+        "source" : "1a033d84cd49e2c2.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656393828636,
+        "stop" : 1656393828711,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3d22ec98a402b6f2",
+        "name" : "Screenshot",
+        "source" : "3d22ec98a402b6f2.png",
+        "type" : "image/png",
+        "size" : 34202
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "38bbcb4fe73a937",
+      "name" : "Response",
+      "source" : "38bbcb4fe73a937.json",
+      "type" : "application/json",
+      "size" : 1050
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 11
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if buttons are clickable"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if buttons are clickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify button Add"
+  }, {
+    "name" : "package",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if buttons are clickable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d62cb70e87a10f77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393767867,
+        "stop" : 1656393769129,
+        "duration" : 1262
+      }
+    }, {
+      "uid" : "ab75faa529d5e564",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393659041,
+        "stop" : 1656393660685,
+        "duration" : 1644
+      }
+    }, {
+      "uid" : "cfd0eac0c707fba6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656392756442,
+        "stop" : 1656392757570,
+        "duration" : 1128
+      }
+    }, {
+      "uid" : "4f8de8295bbe0bc7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656392731735,
+        "stop" : 1656392736871,
+        "duration" : 5136
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "701a915ec58540f0.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

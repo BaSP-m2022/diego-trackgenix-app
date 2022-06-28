@@ -1,0 +1,145 @@
+{
+  "uid" : "fd4567aa6eb32f54",
+  "name" : "Verify Main header",
+  "fullName" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed.Verify Main header",
+  "historyId" : "712e7954fbe6e1a2eaaff6b6c28a4238",
+  "time" : {
+    "start" : 1656393661456,
+    "stop" : 1656393661571,
+    "duration" : 115
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656393661457,
+        "stop" : 1656393661470,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cf75a39a85e5d339",
+        "name" : "Request",
+        "source" : "cf75a39a85e5d339.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "8e522b2f1fc7a691",
+        "name" : "Response",
+        "source" : "8e522b2f1fc7a691.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656393661473,
+        "stop" : 1656393661484,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7de4824abb157ad2",
+        "name" : "Request",
+        "source" : "7de4824abb157ad2.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "8080bacf59e18698",
+        "name" : "Response",
+        "source" : "8080bacf59e18698.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656393661484,
+        "stop" : 1656393661571,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e1ff79b45ab8e40d",
+        "name" : "Screenshot",
+        "source" : "e1ff79b45ab8e40d.png",
+        "type" : "image/png",
+        "size" : 34346
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Main header"
+  }, {
+    "name" : "package",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd4567aa6eb32f54.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

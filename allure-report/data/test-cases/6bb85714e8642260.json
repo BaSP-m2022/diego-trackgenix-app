@@ -1,0 +1,137 @@
+{
+  "uid" : "6bb85714e8642260",
+  "name" : "Complete inputs with correctly information",
+  "fullName" : "Automation Test in SUPER ADMIN Entitie: Add a user.Complete inputs with correctly information",
+  "historyId" : "a1b35a224b0f5611b22ca80eabca51b9",
+  "time" : {
+    "start" : 1656393771183,
+    "stop" : 1656393771316,
+    "duration" : 133
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: this.setLastName is not a function",
+  "statusTrace" : "TypeError: this.setLastName is not a function\n                    at MainPage.completeInputs (C:\\Users\\nicol\\OneDrive\\Escritorio\\diego-trackgenix-app\\test\\pageobjects\\super_admin.page.js:51:16)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async UserContext.<anonymous> (C:\\Users\\nicol\\OneDrive\\Escritorio\\diego-trackgenix-app\\test\\specs\\super_admin.spec.js:52:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TypeError: this.setLastName is not a function",
+    "statusTrace" : "TypeError: this.setLastName is not a function\n                    at MainPage.completeInputs (C:\\Users\\nicol\\OneDrive\\Escritorio\\diego-trackgenix-app\\test\\pageobjects\\super_admin.page.js:51:16)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async UserContext.<anonymous> (C:\\Users\\nicol\\OneDrive\\Escritorio\\diego-trackgenix-app\\test\\specs\\super_admin.spec.js:52:13)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656393771184,
+        "stop" : 1656393771199,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b6d1cf3825210fac",
+        "name" : "Request",
+        "source" : "b6d1cf3825210fac.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "a8bc1ab41b33a01",
+        "name" : "Response",
+        "source" : "a8bc1ab41b33a01.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/11a01c45-f8b0-40c0-8bd2-97e6d0a45a58/clear",
+      "time" : {
+        "start" : 1656393771201,
+        "stop" : 1656393771237,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/11a01c45-f8b0-40c0-8bd2-97e6d0a45a58/value",
+      "time" : {
+        "start" : 1656393771244,
+        "stop" : 1656393771313,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c76193eb06ff9187",
+        "name" : "Request",
+        "source" : "c76193eb06ff9187.json",
+        "type" : "application/json",
+        "size" : 23
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Add a user"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Add a user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Complete inputs with correctly information"
+  }, {
+    "name" : "package",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Add a user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6bb85714e8642260.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

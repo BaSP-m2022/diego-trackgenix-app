@@ -1,0 +1,180 @@
+{
+  "uid" : "36c3b4be2b78301a",
+  "name" : "Verify Main header",
+  "fullName" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed.Verify Main header",
+  "historyId" : "712e7954fbe6e1a2eaaff6b6c28a4238",
+  "time" : {
+    "start" : 1656393829412,
+    "stop" : 1656393829512,
+    "duration" : 100
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656393829412,
+        "stop" : 1656393829424,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5a5480b623e11075",
+        "name" : "Request",
+        "source" : "5a5480b623e11075.json",
+        "type" : "application/json",
+        "size" : 70
+      }, {
+        "uid" : "6862bcd47a26b65",
+        "name" : "Response",
+        "source" : "6862bcd47a26b65.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656393829426,
+        "stop" : 1656393829434,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84618ec7fb327594",
+        "name" : "Request",
+        "source" : "84618ec7fb327594.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "df7b144224a42d27",
+        "name" : "Response",
+        "source" : "df7b144224a42d27.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656393829435,
+        "stop" : 1656393829512,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9550a541054cb59d",
+        "name" : "Screenshot",
+        "source" : "9550a541054cb59d.png",
+        "type" : "image/png",
+        "size" : 34202
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Main header"
+  }, {
+    "name" : "package",
+    "value" : "Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fb107ac48dbe43cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393770081,
+        "stop" : 1656393770206,
+        "duration" : 125
+      }
+    }, {
+      "uid" : "fd4567aa6eb32f54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656393661456,
+        "stop" : 1656393661571,
+        "duration" : 115
+      }
+    }, {
+      "uid" : "4efac921e38fc743",
+      "status" : "passed",
+      "time" : {
+        "start" : 1656392758279,
+        "stop" : 1656392758377,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "3cb1b20635314488",
+      "status" : "failed",
+      "statusDetails" : "ReferenceError: HomePage is not defined",
+      "time" : {
+        "start" : 1656392737547,
+        "stop" : 1656392737548,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36c3b4be2b78301a.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

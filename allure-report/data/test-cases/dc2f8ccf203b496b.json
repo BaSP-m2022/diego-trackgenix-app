@@ -1,0 +1,91 @@
+{
+  "uid" : "dc2f8ccf203b496b",
+  "name" : "\"before all\" hook",
+  "fullName" : "Test Login and entry to swaglabs with corrects params.\"before all\" hook",
+  "historyId" : "94ea82ce2e29e956830df145b4eb6399",
+  "time" : {
+    "start" : 1656391850224,
+    "stop" : 1656391850225,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1656391850225,
+        "stop" : 0,
+        "duration" : -1656391850225
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c1c1661f962dc4aa",
+        "name" : "Request",
+        "source" : "c1c1661f962dc4aa.json",
+        "type" : "application/json",
+        "size" : 67
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Login and entry to swaglabs with corrects params"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Login and entry to swaglabs with corrects params"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Test Login and entry to swaglabs with corrects params"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dc2f8ccf203b496b.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

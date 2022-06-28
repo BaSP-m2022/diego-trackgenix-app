@@ -1,0 +1,183 @@
+{
+  "uid" : "20d44ca73b353beb",
+  "name" : "Verify button Edit",
+  "fullName" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable.Verify button Edit",
+  "historyId" : "3a86ceb6cd850096e1b7c59045b2e523",
+  "time" : {
+    "start" : 1656391961390,
+    "stop" : 1656391961502,
+    "duration" : 112
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656391961391,
+        "stop" : 1656391961404,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7780eec55fa7304e",
+        "name" : "Request",
+        "source" : "7780eec55fa7304e.json",
+        "type" : "application/json",
+        "size" : 123
+      }, {
+        "uid" : "2fa9724f039dd739",
+        "name" : "Response",
+        "source" : "2fa9724f039dd739.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656391961405,
+        "stop" : 1656391961415,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6112ad83fd98079f",
+        "name" : "Request",
+        "source" : "6112ad83fd98079f.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "3324d38c7a1d3a70",
+        "name" : "Response",
+        "source" : "3324d38c7a1d3a70.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656391961416,
+        "stop" : 1656391961424,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8516f68d56897ede",
+        "name" : "Request",
+        "source" : "8516f68d56897ede.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "d0f3c731d8484e43",
+        "name" : "Response",
+        "source" : "d0f3c731d8484e43.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656391961425,
+        "stop" : 1656391961502,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9d37e9598594fac",
+        "name" : "Screenshot",
+        "source" : "f9d37e9598594fac.png",
+        "type" : "image/png",
+        "size" : 34346
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify button Edit"
+  }, {
+    "name" : "package",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6566678bd1de974a",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`td:nth-child(5) > button > svg > path:nth-child(2)`) to be clickable\n                \n                Expected: \"clickable\"\n                Received: \"not clickable\"",
+      "time" : {
+        "start" : 1656391851865,
+        "stop" : 1656391861888,
+        "duration" : 10023
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20d44ca73b353beb.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}

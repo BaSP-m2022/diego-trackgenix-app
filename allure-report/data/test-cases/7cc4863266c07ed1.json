@@ -1,0 +1,226 @@
+{
+  "uid" : "7cc4863266c07ed1",
+  "name" : "Verify button Add",
+  "fullName" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable.Verify button Add",
+  "historyId" : "97579475b8d547e30aca278da21fc7b",
+  "time" : {
+    "start" : 1656391578072,
+    "stop" : 1656391579353,
+    "duration" : 1281
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656391578076,
+        "stop" : 1656391578712,
+        "duration" : 636
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2c6956b163be0bcc",
+        "name" : "Request",
+        "source" : "2c6956b163be0bcc.json",
+        "type" : "application/json",
+        "size" : 80
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656391578733,
+        "stop" : 1656391578747,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d57420bf5afefd6c",
+        "name" : "Request",
+        "source" : "d57420bf5afefd6c.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "ff56a074343c4084",
+        "name" : "Response",
+        "source" : "ff56a074343c4084.json",
+        "type" : "application/json",
+        "size" : 1050
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1656391579245,
+        "stop" : 1656391579260,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dcf833fe4a035017",
+        "name" : "Request",
+        "source" : "dcf833fe4a035017.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "7d4b8668ae5d1dfd",
+        "name" : "Response",
+        "source" : "7d4b8668ae5d1dfd.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656391579263,
+        "stop" : 1656391579274,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "16f822046af374d8",
+        "name" : "Request",
+        "source" : "16f822046af374d8.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "b600b7dbe6ae6c5a",
+        "name" : "Response",
+        "source" : "b600b7dbe6ae6c5a.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1656391579274,
+        "stop" : 1656391579285,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "31ba0baa47930e7c",
+        "name" : "Request",
+        "source" : "31ba0baa47930e7c.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "ac4eca8474f1196b",
+        "name" : "Response",
+        "source" : "ac4eca8474f1196b.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1656391579287,
+        "stop" : 1656391579352,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8bb480568d0aa44b",
+        "name" : "Screenshot",
+        "source" : "8bb480568d0aa44b.png",
+        "type" : "image/png",
+        "size" : 34346
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ {
+      "uid" : "7e408a13e8bab61b",
+      "name" : "Response",
+      "source" : "7e408a13e8bab61b.json",
+      "type" : "application/json",
+      "size" : 1050
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 11
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "testClass",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify button Add"
+  }, {
+    "name" : "package",
+    "value" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-103.0.5060.66"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7cc4863266c07ed1.json",
+  "parameterValues" : [ "chrome-103.0.5060.66" ]
+}
