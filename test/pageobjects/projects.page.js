@@ -30,7 +30,6 @@ class ProjectsPage {
     get confirmDelete () {return $('#root > div > section > div > div.modal_overlay__Nah-X > div > div.projects_modalActions__hahG9 > div > button:nth-child(1)')}
     get cancelButtonDelete () {return $('#root > div > section > div > div.modal_overlay__Nah-X > div > div.projects_modalActions__hahG9 > div > button:nth-child(2)')}
     
-    
     async confirmUser (){
         await this.confirmForm.click();
     }
@@ -105,10 +104,5 @@ class ProjectsPage {
     async confirmDeleteProject () {
         await this.confirmDelete.click();
     }
-
-
-
-
 }
-
 module.exports = new ProjectsPage();

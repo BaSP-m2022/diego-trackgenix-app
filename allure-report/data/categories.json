@@ -1,5 +1,51 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "TypeError: Cannot read properties of undefined (reading 'click')",
+      "children" : [ {
+        "name" : "Close modal confirmation",
+        "uid" : "c4367196d4c476c1",
+        "parentUid" : "7f0732ff42c5f78cf33afe88d4cdbd92",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656444041324,
+          "stop" : 1656444041325,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "7f0732ff42c5f78cf33afe88d4cdbd92"
+    }, {
+      "name" : "Error: Can't call click on element with selector \"#root > div > section > div > div.modal_overlay__Nah-X > div > div.projects_modalActions__hahG9 > div > button:nth-child(2)\" because element wasn't found",
+      "children" : [ {
+        "name" : "Close modal confirmation",
+        "uid" : "59269bb5c39039ea",
+        "parentUid" : "461088d31ca82b708b1f21c2fb88aeb8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1656449325467,
+          "stop" : 1656449335494,
+          "duration" : 10027
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-103.0.5060.66" ]
+      } ],
+      "uid" : "461088d31ca82b708b1f21c2fb88aeb8"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

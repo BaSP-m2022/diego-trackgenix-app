@@ -23,10 +23,6 @@ class MainPage {
     get msgErrorLastName () {return $('#root > div > section > div.modal_overlay__Nah-X > div > form > div:nth-child(2) > p')}
     get msgErrorEmail () {return $('#root > div > section > div.modal_overlay__Nah-X > div > form > div:nth-child(3) > p')}
     get passwrodErrorCharacters () {return $('#root > div > section > div.modal_overlay__Nah-X > div > form > div:nth-child(4) > p')}
-   
-    
-  
-// Setters
 
 async confirmUser (){
     await this.confirmBtn.click();
@@ -90,8 +86,6 @@ async deleteUser () {
 async closeModal () {
     await this.closeModalBtn.click();
 }
-
-
 }
 
 module.exports = new MainPage();

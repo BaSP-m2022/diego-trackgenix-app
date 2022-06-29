@@ -32,8 +32,7 @@ class AdminPage {
         get closeModalConfirmation () {return $('#root > div > section > div:nth-child(2) > div.modal_overlay__Nah-X > div > div.modal_buttonContainer__zVa22 > button > svg')}
         get deleteConfirm () {return $('//*[@id="root"]/div/section/div[2]/div[1]/div/div[3]/button')}
         get closeFormEdit () {return $('#root > div > section > div:nth-child(2) > div.modal_overlay__Nah-X > div > div > button > svg')}
-        //Setter
-
+        
     async completeInputs (FirstName, lastName, email, password) {
         await this.setFirstName(FirstName);
         await this.setLastName(lastName);

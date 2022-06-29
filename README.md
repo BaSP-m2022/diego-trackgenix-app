@@ -26,11 +26,18 @@ You will also see any lint errors in the console.
 ### Fix Lint errors
     npm run lint:fix
 
+### Run all test 
+    npx wdio run ./wdio.conf.js
+    npm run allure-report
+
+**Automated tests were carried out to verify that the application works correctly in the different entities that it has.**
+
+
 <br>
 
 ### Members
 
-(example)
+
 |Photo | Name  | Mail | Github
 | :-----: | :-----: | :-----: | :-----: |
 <img src="https://avatars.githubusercontent.com/u/20587232?v=4" height="50" width="50">| Esteban Frare | esteban.frare@radiumrocket.com | [@estefrare](https://github.com/estefrare)
@@ -48,5 +55,8 @@ You will also see any lint errors in the console.
 <br>
 
 ### License & Copyright
+
+
+
 
 © Radium Rocket "Become a Software Professional 2022"

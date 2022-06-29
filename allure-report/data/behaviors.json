@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "should login with valid credentials",
-    "uid" : "64ea96891da44132",
+    "uid" : "28112ade472578cd",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -20,7 +20,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "holanda",
-    "uid" : "972aff623d6bbfca",
+    "uid" : "8f3c587b332fb5ca",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -37,7 +37,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "\"before all\" hook",
-    "uid" : "42ff99de5ac58fe9",
+    "uid" : "8fcf45aa6c5f3de8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -54,7 +54,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Verify button Add",
-    "uid" : "fd21251bb88b7de5",
+    "uid" : "84f89e45951936b2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -71,7 +71,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Verify button Edit",
-    "uid" : "9e8b7629a75e7590",
+    "uid" : "945694254e9c42d8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -88,7 +88,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Verify button Delete",
-    "uid" : "cc329a39e9ebe612",
+    "uid" : "d50dd17acc19a2b1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -105,7 +105,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Verify Entitie SuperAdmin in Navbar",
-    "uid" : "a73d3145c21b43b1",
+    "uid" : "f71708a71ca8da2a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -122,7 +122,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Verify Instagram button",
-    "uid" : "e741976a1ab88feb",
+    "uid" : "402b06d62b4a47ab",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -139,7 +139,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Verify Facebook button",
-    "uid" : "5f35fc6d335e496b",
+    "uid" : "c973c6b4c09d9f72",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -156,7 +156,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Verify Twitter button",
-    "uid" : "cdfe016e08a88c08",
+    "uid" : "256204648dfa6351",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -173,7 +173,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Enter to form page",
-    "uid" : "ff47f43df86f77c6",
+    "uid" : "22e4b70c71f66a85",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -190,7 +190,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Close form page",
-    "uid" : "a6f3d271ba2dd33e",
+    "uid" : "c344842f24e73ac3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -207,7 +207,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Complete inputs with correctly information",
-    "uid" : "b5195bdeff0392f6",
+    "uid" : "82bf879c9737cde5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -224,7 +224,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Complete inputs with invalid information",
-    "uid" : "c28380f95c511f06",
+    "uid" : "eb49b225a68f7e7e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -241,7 +241,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Delete second user",
-    "uid" : "7f953b4ab453b9ff",
+    "uid" : "ea94cdbfa1f984bb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -258,7 +258,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Should msg error with firstname Invalid",
-    "uid" : "66834e27f1ff2666",
+    "uid" : "64157ff8a4969881",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -274,59 +274,8 @@
     "retriesStatusChange" : true,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Enter to form page",
-    "uid" : "ce0efb17a5a48d61",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1656400288856,
-      "stop" : 1656400289094,
-      "duration" : 238
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 13,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-103.0.5060.66" ]
-  }, {
-    "name" : "add User",
-    "uid" : "3a08a1101269dc78",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1656400289094,
-      "stop" : 1656400289318,
-      "duration" : 224
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 13,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-103.0.5060.66" ]
-  }, {
-    "name" : "Should msg error with First name Invalid",
-    "uid" : "807d508cdc5162cf",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1656400289322,
-      "stop" : 1656400289832,
-      "duration" : 510
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 9,
-    "retriesStatusChange" : true,
-    "parameters" : [ "chrome-103.0.5060.66" ]
-  }, {
     "name" : "Should msg error with Last name Invalid",
-    "uid" : "2e86976459008399",
+    "uid" : "4e295ee9cabec621",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -343,7 +292,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Should msg error with Email Invalid",
-    "uid" : "e829e92f6d02647d",
+    "uid" : "88295ff33f60fd5c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -360,7 +309,7 @@
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Should msg error with Password Invalid",
-    "uid" : "913ef8e9322ab6bb",
+    "uid" : "12d75364aa9fdece",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -376,320 +325,405 @@
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "\"before all\" hook",
-    "uid" : "2ce319c2baf5fef6",
+    "name" : "Close modal confirmation",
+    "uid" : "1667c1e33d2e2687",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433235008,
-      "stop" : 1656433235010,
-      "duration" : 2
+      "start" : 1656439794362,
+      "stop" : 1656439794518,
+      "duration" : 156
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 43,
-    "retriesStatusChange" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Verify button Add",
-    "uid" : "f39127c79c6f0460",
+    "name" : "add User",
+    "uid" : "11d064a797c3a515",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433235025,
-      "stop" : 1656433236250,
-      "duration" : 1225
+      "start" : 1656440779143,
+      "stop" : 1656440779272,
+      "duration" : 129
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 43,
-    "retriesStatusChange" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Verify button Edit",
-    "uid" : "ed57fd54453cbbdf",
+    "name" : "Complete inputs with correctly information",
+    "uid" : "b29750ef0d64a04f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433236251,
-      "stop" : 1656433236415,
-      "duration" : 164
+      "start" : 1656441068472,
+      "stop" : 1656441069287,
+      "duration" : 815
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 43,
+    "retriesCount" : 1,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Verify button Delete",
-    "uid" : "e0e04533540e0ff",
+    "name" : "Close modal confirmation",
+    "uid" : "c4367196d4c476c1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1656444041324,
+      "stop" : 1656444041325,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Confirmation to delete",
+    "uid" : "6f98b6b5680f8d53",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433236416,
-      "stop" : 1656433236566,
+      "start" : 1656449325316,
+      "stop" : 1656449325466,
       "duration" : 150
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 43,
+    "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Verify Entitie SuperAdmin in Navbar",
-    "uid" : "70094a4fba571eef",
+    "name" : "Close modal confirmation",
+    "uid" : "59269bb5c39039ea",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1656433236567,
-      "stop" : 1656433236695,
-      "duration" : 128
+      "start" : 1656449325467,
+      "stop" : 1656449335494,
+      "duration" : 10027
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 43,
+    "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Verify Instagram button",
-    "uid" : "b6e5245823963bc9",
+    "name" : "\"before all\" hook",
+    "uid" : "4171c886cfb526d1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433236695,
-      "stop" : 1656433236808,
-      "duration" : 113
+      "start" : 1656457129351,
+      "stop" : 1656457129355,
+      "duration" : 4
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 43,
+    "retriesCount" : 56,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Verify Facebook button",
-    "uid" : "2758fc6de1c5eeb9",
+    "name" : "Verify button Add",
+    "uid" : "2eb9e52318d83f66",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433236808,
-      "stop" : 1656433236925,
-      "duration" : 117
+      "start" : 1656457129371,
+      "stop" : 1656457130625,
+      "duration" : 1254
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 43,
+    "retriesCount" : 48,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Verify Twitter button",
-    "uid" : "e2e2764f4f3018b1",
+    "name" : "Verify button Edit",
+    "uid" : "be41d72372998dce",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433236928,
-      "stop" : 1656433237044,
+      "start" : 1656457130627,
+      "stop" : 1656457130835,
+      "duration" : 208
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 48,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify button Delete",
+    "uid" : "a65bce9cbcdb4b9e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457130836,
+      "stop" : 1656457130995,
+      "duration" : 159
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 47,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify Entitie Admin in Navbar",
+    "uid" : "efad24a4210fbf60",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457130995,
+      "stop" : 1656457131111,
       "duration" : 116
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 43,
-    "retriesStatusChange" : false,
+    "retriesCount" : 46,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify Instagram button",
+    "uid" : "4ec110a1742fbcf7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457131112,
+      "stop" : 1656457131244,
+      "duration" : 132
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 46,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify Facebook button",
+    "uid" : "1e60c808864d09f4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457131244,
+      "stop" : 1656457131379,
+      "duration" : 135
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 46,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify Twitter button",
+    "uid" : "ccf63144e65f8a6c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457131395,
+      "stop" : 1656457131530,
+      "duration" : 135
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 46,
+    "retriesStatusChange" : true,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Verify Main header",
-    "uid" : "48734303559a18a5",
+    "uid" : "ce724ae214e261c7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433237064,
-      "stop" : 1656433237158,
-      "duration" : 94
+      "start" : 1656457131562,
+      "stop" : 1656457131673,
+      "duration" : 111
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 43,
-    "retriesStatusChange" : true,
+    "retriesCount" : 44,
+    "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Verify Table of contents",
-    "uid" : "2c19bf33dd48199f",
+    "uid" : "929edeffb2e231b7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433237161,
-      "stop" : 1656433237257,
-      "duration" : 96
+      "start" : 1656457131674,
+      "stop" : 1656457131826,
+      "duration" : 152
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 43,
-    "retriesStatusChange" : true,
+    "retriesCount" : 44,
+    "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Verify icon of Button Add",
-    "uid" : "f8013a43f2f0faf1",
+    "uid" : "eed365d3bd27b91b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433237257,
-      "stop" : 1656433237391,
-      "duration" : 134
+      "start" : 1656457131827,
+      "stop" : 1656457131948,
+      "duration" : 121
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 43,
-    "retriesStatusChange" : true,
+    "retriesCount" : 44,
+    "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Verify icon of Button Delete",
-    "uid" : "4fe4f539b06c5e48",
+    "uid" : "234c03a5b4ccf0ab",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433237391,
-      "stop" : 1656433237503,
-      "duration" : 112
+      "start" : 1656457131948,
+      "stop" : 1656457132063,
+      "duration" : 115
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 43,
-    "retriesStatusChange" : true,
+    "retriesCount" : 44,
+    "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Verify icon of Button Edit",
-    "uid" : "691da1815e76dfb8",
+    "uid" : "b8be8151ca98e32d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433237504,
-      "stop" : 1656433237644,
-      "duration" : 140
+      "start" : 1656457132063,
+      "stop" : 1656457132207,
+      "duration" : 144
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 44,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Enter to form page",
+    "uid" : "6395e2c8248c7053",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457132217,
+      "stop" : 1656457132604,
+      "duration" : 387
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
     "retriesCount" : 43,
-    "retriesStatusChange" : true,
-    "parameters" : [ "chrome-103.0.5060.66" ]
-  }, {
-    "name" : "Enter to form page",
-    "uid" : "31cb1117a55cb161",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1656433237654,
-      "stop" : 1656433238012,
-      "duration" : 358
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 33,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Close form page using cross",
-    "uid" : "58a5cda967a6cbf2",
+    "uid" : "bbb04d5eab458a62",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433238012,
-      "stop" : 1656433238179,
-      "duration" : 167
+      "start" : 1656457132604,
+      "stop" : 1656457132764,
+      "duration" : 160
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 29,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-103.0.5060.66" ]
-  }, {
-    "name" : "Enter to form page again",
-    "uid" : "c190339a12c52d8e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1656433238192,
-      "stop" : 1656433238367,
-      "duration" : 175
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 30,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-103.0.5060.66" ]
-  }, {
-    "name" : "Complete inputs with correctly information",
-    "uid" : "973751039b94c19b",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1656433238367,
-      "stop" : 1656433239140,
-      "duration" : 773
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 33,
+    "retriesCount" : 43,
     "retriesStatusChange" : true,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Close modal confirmation",
-    "uid" : "c8cefe67e55ef75c",
+    "name" : "Enter to form page again",
+    "uid" : "9b7b76130db008f0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433239140,
-      "stop" : 1656433239889,
-      "duration" : 749
+      "start" : 1656457132764,
+      "stop" : 1656457132936,
+      "duration" : 172
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 28,
-    "retriesStatusChange" : false,
+    "retriesCount" : 43,
+    "retriesStatusChange" : true,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Close section edit using cross ",
-    "uid" : "436646f55f8f7613",
+    "name" : "Complete inputs with correctly information",
+    "uid" : "620db47d587ee2b9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433240096,
-      "stop" : 1656433240239,
-      "duration" : 143
+      "start" : 1656457132936,
+      "stop" : 1656457134203,
+      "duration" : 1267
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 43,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Close Modal confirmation",
+    "uid" : "1de58098efd00728",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457134204,
+      "stop" : 1656457135428,
+      "duration" : 1224
     },
     "flaky" : false,
     "newFailed" : false,
@@ -699,82 +733,150 @@
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Enter to section edit",
-    "uid" : "dc726d63a4a52251",
+    "name" : "Delete user",
+    "uid" : "9a289a30048129be",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433240239,
-      "stop" : 1656433240398,
-      "duration" : 159
+      "start" : 1656457135454,
+      "stop" : 1656457135600,
+      "duration" : 146
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 73,
+    "retriesCount" : 27,
     "retriesStatusChange" : true,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Complete inputs with valid information",
-    "uid" : "1e74ed5ca05c3305",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1656433240398,
-      "stop" : 1656433241060,
-      "duration" : 662
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 22,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-103.0.5060.66" ]
-  }, {
-    "name" : "Close modal confirmation",
-    "uid" : "32a7a4f8b25bfed7",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1656433241060,
-      "stop" : 1656433241756,
-      "duration" : 696
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 31,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-103.0.5060.66" ]
-  }, {
-    "name" : "Delete user",
-    "uid" : "55192cee0fafe41e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1656433241769,
-      "stop" : 1656433241931,
-      "duration" : 162
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 22,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-103.0.5060.66" ]
-  }, {
     "name" : "Confirmation to delete",
-    "uid" : "e36194e6862e044e",
+    "uid" : "d442d8f5737d6dd5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433241932,
-      "stop" : 1656433242076,
-      "duration" : 144
+      "start" : 1656457135600,
+      "stop" : 1656457135780,
+      "duration" : 180
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 27,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Enter to form page",
+    "uid" : "85e7f473618952d5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457135790,
+      "stop" : 1656457136495,
+      "duration" : 705
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 38,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Complete inputs with incorrectly information",
+    "uid" : "ef5974225b3b8966",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457136496,
+      "stop" : 1656457137362,
+      "duration" : 866
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 33,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Should msg error with First name Invalid",
+    "uid" : "cea98f297552a95f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457137363,
+      "stop" : 1656457137648,
+      "duration" : 285
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 38,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Should msg error with Last name Invalid",
+    "uid" : "ea7566ddcb91e685",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457137658,
+      "stop" : 1656457138019,
+      "duration" : 361
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 38,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Should msg error with Email Invalid",
+    "uid" : "f4962cd171699aad",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457138019,
+      "stop" : 1656457138333,
+      "duration" : 314
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 38,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Should msg error with Password Invalid",
+    "uid" : "9046c695774f7b21",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457138333,
+      "stop" : 1656457138766,
+      "duration" : 433
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 38,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Close form page using cross",
+    "uid" : "9fb14bb46d41ea5a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457138775,
+      "stop" : 1656457138908,
+      "duration" : 133
     },
     "flaky" : false,
     "newFailed" : false,
@@ -784,14 +886,82 @@
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Close modal confirmation",
-    "uid" : "ff7c9536a13a8707",
+    "name" : "Close section edit using cross ",
+    "uid" : "5bf2e739f63f72d2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433242076,
-      "stop" : 1656433242773,
-      "duration" : 697
+      "start" : 1656457139098,
+      "stop" : 1656457139243,
+      "duration" : 145
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 31,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Enter to section edit",
+    "uid" : "82d96e0843d7df25",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457139243,
+      "stop" : 1656457139376,
+      "duration" : 133
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 64,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Complete inputs with valid information",
+    "uid" : "524f26e19bf6d2fd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457139377,
+      "stop" : 1656457140309,
+      "duration" : 932
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 31,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Close modal confirmation",
+    "uid" : "85e33f85599a8375",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457140309,
+      "stop" : 1656457141499,
+      "duration" : 1190
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 31,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Enter to form page",
+    "uid" : "4b611f4de1da6c14",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457146456,
+      "stop" : 1656457146908,
+      "duration" : 452
     },
     "flaky" : false,
     "newFailed" : false,
@@ -801,156 +971,819 @@
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Enter to Facebook",
-    "uid" : "a7658a5fbe5d9a73",
+    "name" : "Close form page using cross",
+    "uid" : "bacbb69f96b1f3c5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433242791,
-      "stop" : 1656433243019,
-      "duration" : 228
+      "start" : 1656457146908,
+      "stop" : 1656457147077,
+      "duration" : 169
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 20,
+    "retriesCount" : 24,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Enter to form page again",
+    "uid" : "23bc774275d0f3e6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457147086,
+      "stop" : 1656457147248,
+      "duration" : 162
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 24,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Complete inputs with correctly information",
+    "uid" : "cdc2968abddbfabd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457147248,
+      "stop" : 1656457148113,
+      "duration" : 865
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 24,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Close modal confirmation",
+    "uid" : "152a978f9a330f62",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457148113,
+      "stop" : 1656457149305,
+      "duration" : 1192
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 23,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Delete user",
+    "uid" : "48e6da592cb045a9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457151785,
+      "stop" : 1656457151950,
+      "duration" : 165
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 13,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
-    "name" : "Enter to Twitter",
-    "uid" : "ef44e830712106e1",
+    "name" : "Cancel delete",
+    "uid" : "5ee40909fe51e4f0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433243019,
-      "stop" : 1656433243288,
-      "duration" : 269
+      "start" : 1656457151951,
+      "stop" : 1656457152120,
+      "duration" : 169
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 20,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-103.0.5060.66" ]
-  }, {
-    "name" : "Enter to Instagram",
-    "uid" : "8cd79e548336a2bc",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1656433243289,
-      "stop" : 1656433243608,
-      "duration" : 319
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 20,
+    "retriesCount" : 12,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Enter to form page",
-    "uid" : "86ee52803cc03ba1",
+    "uid" : "2c977a5012154d5e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433243615,
-      "stop" : 1656433243878,
-      "duration" : 263
+      "start" : 1656457153662,
+      "stop" : 1656457153828,
+      "duration" : 166
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 1,
+    "retriesCount" : 23,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "add User",
-    "uid" : "393cc4dcffa448a4",
+    "uid" : "4663f596ba1e1ae3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433243879,
-      "stop" : 1656433244119,
-      "duration" : 240
+      "start" : 1656457153829,
+      "stop" : 1656457154016,
+      "duration" : 187
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 1,
+    "retriesCount" : 23,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Should msg error with First name Invalid",
-    "uid" : "83c13a4ceba3d590",
+    "uid" : "c16e16ed94f8d579",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433244134,
-      "stop" : 1656433244681,
-      "duration" : 547
+      "start" : 1656457154016,
+      "stop" : 1656457154360,
+      "duration" : 344
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 1,
+    "retriesCount" : 19,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Should msg error with Description Invalid",
+    "uid" : "41c39bd2e54e828",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457154362,
+      "stop" : 1656457154709,
+      "duration" : 347
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 9,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Should msg error with Client Invalid",
+    "uid" : "7f3000b0e8d14d4b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457154710,
+      "stop" : 1656457154953,
+      "duration" : 243
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 9,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Should msg error with Start Date Wrong",
+    "uid" : "d5c99d1fc2e3f204",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457154954,
+      "stop" : 1656457155178,
+      "duration" : 224
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 9,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Should msg error with End Date Wrong",
+    "uid" : "d8021d98a2c87d48",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457155194,
+      "stop" : 1656457155417,
+      "duration" : 223
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 9,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Close form page using cross",
+    "uid" : "b0e1fe5a3d04b31f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457155417,
+      "stop" : 1656457155605,
+      "duration" : 188
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "\"before all\" hook",
+    "uid" : "e20fabc1e3d6b518",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457158283,
+      "stop" : 1656457158286,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 82,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify button Add",
+    "uid" : "202fe422b16f9153",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457158304,
+      "stop" : 1656457159510,
+      "duration" : 1206
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 84,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify button Edit",
+    "uid" : "c34b4d2923b57958",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457159511,
+      "stop" : 1656457159660,
+      "duration" : 149
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 83,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify button Delete",
+    "uid" : "4d7f99a74dd90e77",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457159661,
+      "stop" : 1656457159810,
+      "duration" : 149
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 79,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify Entitie SuperAdmin in Navbar",
+    "uid" : "6dd62736626c4365",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457159811,
+      "stop" : 1656457159946,
+      "duration" : 135
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 79,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify Instagram button",
+    "uid" : "38681887ad7ce5cd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457159947,
+      "stop" : 1656457160140,
+      "duration" : 193
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 79,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify Facebook button",
+    "uid" : "810e9643f1537e40",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457160141,
+      "stop" : 1656457160311,
+      "duration" : 170
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 79,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify Twitter button",
+    "uid" : "6b4fc03aded85712",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457160316,
+      "stop" : 1656457160447,
+      "duration" : 131
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 79,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify Main header",
+    "uid" : "2c320917f7e99fe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457160485,
+      "stop" : 1656457160700,
+      "duration" : 215
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 77,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify Table of contents",
+    "uid" : "87f47ca96d26a20d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457160717,
+      "stop" : 1656457160854,
+      "duration" : 137
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 77,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify icon of Button Add",
+    "uid" : "97f0d8fb20ae0ce1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457160855,
+      "stop" : 1656457160988,
+      "duration" : 133
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 77,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify icon of Button Delete",
+    "uid" : "d7cc62fd0ee0e6fb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457160989,
+      "stop" : 1656457161117,
+      "duration" : 128
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 77,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Verify icon of Button Edit",
+    "uid" : "2960c6e7ca31290c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457161118,
+      "stop" : 1656457161238,
+      "duration" : 120
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 77,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Enter to form page",
+    "uid" : "eb613b8f5b849a4d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457161248,
+      "stop" : 1656457161670,
+      "duration" : 422
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 40,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Close form page using cross",
+    "uid" : "b1cf3d47ad5de7f8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457161670,
+      "stop" : 1656457161857,
+      "duration" : 187
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 36,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Enter to form page again",
+    "uid" : "7e0ea410a563ff0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457161865,
+      "stop" : 1656457162066,
+      "duration" : 201
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 37,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Complete inputs with correctly information",
+    "uid" : "22722c65bcb31e27",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457162067,
+      "stop" : 1656457162911,
+      "duration" : 844
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 40,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Close modal confirmation",
+    "uid" : "8f10ca647f68d95b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457162912,
+      "stop" : 1656457163698,
+      "duration" : 786
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 35,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Close section edit using cross ",
+    "uid" : "19aef95147a52165",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457163953,
+      "stop" : 1656457164125,
+      "duration" : 172
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 63,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Enter to section edit",
+    "uid" : "95d4a1731c2befdf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457164126,
+      "stop" : 1656457164365,
+      "duration" : 239
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 127,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Complete inputs with valid information",
+    "uid" : "2acaea656e999448",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457164365,
+      "stop" : 1656457165089,
+      "duration" : 724
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 49,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Close modal confirmation",
+    "uid" : "941617df56d2a057",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457165090,
+      "stop" : 1656457165807,
+      "duration" : 717
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 58,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Delete user",
+    "uid" : "9297e64af909fbb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457165822,
+      "stop" : 1656457165993,
+      "duration" : 171
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 44,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Confirmation to delete",
+    "uid" : "3b63e7b873b766ed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457165994,
+      "stop" : 1656457166172,
+      "duration" : 178
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 45,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Close modal confirmation",
+    "uid" : "6e00957a2c6f1cee",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457166172,
+      "stop" : 1656457166873,
+      "duration" : 701
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 46,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Enter to Facebook",
+    "uid" : "f4179a1bd4c2ae2f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457166881,
+      "stop" : 1656457167147,
+      "duration" : 266
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 27,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Enter to Twitter",
+    "uid" : "776959e7487bbfb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457167147,
+      "stop" : 1656457167514,
+      "duration" : 367
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 27,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Enter to Instagram",
+    "uid" : "2fea6c83e67358",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457167515,
+      "stop" : 1656457167889,
+      "duration" : 374
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 27,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Enter to form page",
+    "uid" : "d1d781e64013e161",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457167897,
+      "stop" : 1656457168162,
+      "duration" : 265
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "add User",
+    "uid" : "4a972f5fb2ee14be",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457168162,
+      "stop" : 1656457168427,
+      "duration" : 265
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-103.0.5060.66" ]
+  }, {
+    "name" : "Should msg error with First name Invalid",
+    "uid" : "e43f867c700efb22",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1656457168428,
+      "stop" : 1656457169032,
+      "duration" : 604
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Should msg error with Last name Invalid",
-    "uid" : "47538d94611f6be9",
+    "uid" : "b228a1d7a4dccce4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433244681,
-      "stop" : 1656433245269,
-      "duration" : 588
+      "start" : 1656457169033,
+      "stop" : 1656457169626,
+      "duration" : 593
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 1,
+    "retriesCount" : 8,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Should msg error with Email Invalid",
-    "uid" : "42f87d36a771f98f",
+    "uid" : "736b6ffc5f97d18e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433245270,
-      "stop" : 1656433245618,
-      "duration" : 348
+      "start" : 1656457169627,
+      "stop" : 1656457170003,
+      "duration" : 376
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 1,
+    "retriesCount" : 8,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   }, {
     "name" : "Should msg error with Password Invalid",
-    "uid" : "c25757170a785ea6",
+    "uid" : "75db49ff97940f1c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1656433245633,
-      "stop" : 1656433246210,
-      "duration" : 577
+      "start" : 1656457170014,
+      "stop" : 1656457170687,
+      "duration" : 673
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 1,
+    "retriesCount" : 8,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-103.0.5060.66" ]
   } ]

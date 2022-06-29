@@ -1,6 +1,6 @@
 const ProjectsPage = require('../pageobjects/projects.page')
 
-describe('Automation Test in SUPER ADMIN Entitie', () => {
+describe('Automation Test in PROJECT Entitie', () => {
     beforeAll('Open browser', async () => {
         browser.url('https://diego-trackgenix-app.vercel.app/projects')
     })
@@ -14,7 +14,7 @@ describe('Automation Test in SUPER ADMIN Entitie', () => {
         it('Verify button Delete', async () => {
             await expect(ProjectsPage.deleteBtn).toBeClickable()
         })
-        it('Verify Entitie SuperAdmin in Navbar', async () => {
+        it('Verify Entitie Project in Navbar', async () => {
             await expect(ProjectsPage.projectBtn).toBeClickable()
         })
         it('Verify Instagram button', async () => {
@@ -87,55 +87,55 @@ describe('Automation Test in SUPER ADMIN Entitie', () => {
         })
         it('Cancel delete', async () => {
             await ProjectsPage.cancelDelete()
-        }) 
-              
-})
-    describe('Delete user', () => {
-                    it('Delete user', async () => {
-                        await ProjectsPage.deleteUser()
-                    })
-                    it('Confirmation to delete', async () => {
-                        await ProjectsPage.confirmDeleteProject()
-                    }) 
-                    it('Close modal confirmation', async () => {
-                        await ProjectsPage.confirmUser()
-                    })      
         })
-        describe('Check error msgs with empty data', () => {
-                        it('Enter to form page', async () => {
-                            await ProjectsPage.AddUser()
-                        })
-                        it('add User', async () => {
-                            await ProjectsPage.sendForm()
-                        })
-                        it('Should msg error with First name Invalid', async () => {
-                            await ProjectsPage.setFirstName('');
-                            await expect(ProjectsPage.msgErrorfirstName).toHaveText('"name" is not allowed to be empty')
-                            await ProjectsPage.setFirstName('Ni');
-                            await expect(ProjectsPage.msgErrorfirstName).toHaveText('"name" length must be at least 3 characters long')
-                        })
-                        it('Should msg error with Description Invalid', async () => {
-                            await ProjectsPage.setDescription('');
-                            await expect(ProjectsPage.msgErrorDescription).toHaveText('"description" is not allowed to be empty')
-                            await ProjectsPage.setDescription('La');
-                            await expect(ProjectsPage.msgErrorDescription).toHaveText('"description" length must be at least 5 characters long')
-                        })
-                        it('Should msg error with Client Invalid', async () => {
-                            await ProjectsPage.setClient('');
-                            await expect(ProjectsPage.msgErrorClient).toHaveText('"client" is not allowed to be empty')
-                        })
-                        it('Should msg error with Start Date Wrong', async () => {
-                            await ProjectsPage.setStart('');
-                            await expect(ProjectsPage.starDateErrorMsg).toHaveText('"startDate" must be a valid date')
-                        
-                        })
-                        it('Should msg error with End Date Wrong', async () => {
-                            await ProjectsPage.setEnd('');
-                            await expect(ProjectsPage.endDateErrorMsg).toHaveText('"endDate" must be a valid date')
-                            
-                        })
-                        it('Close form page using cross', async () => {
-                                            await ProjectsPage.closeFormPage()
-                                                    })
-                    })
+
+    })
+    describe('Delete user', () => {
+        it('Delete user', async () => {
+            await ProjectsPage.deleteUser()
+        })
+        it('Confirmation to delete', async () => {
+            await ProjectsPage.confirmDeleteProject()
+        })
+        it('Close modal confirmation', async () => {
+            await ProjectsPage.confirmUser()
+        })
+    })
+    describe('Check error msgs with wrong data', () => {
+        it('Enter to form page', async () => {
+            await ProjectsPage.AddUser()
+        })
+        it('add User', async () => {
+            await ProjectsPage.sendForm()
+        })
+        it('Should msg error with First name Invalid', async () => {
+            await ProjectsPage.setFirstName('');
+            await expect(ProjectsPage.msgErrorfirstName).toHaveText('"name" is not allowed to be empty')
+            await ProjectsPage.setFirstName('Ni');
+            await expect(ProjectsPage.msgErrorfirstName).toHaveText('"name" length must be at least 3 characters long')
+        })
+        it('Should msg error with Description Invalid', async () => {
+            await ProjectsPage.setDescription('');
+            await expect(ProjectsPage.msgErrorDescription).toHaveText('"description" is not allowed to be empty')
+            await ProjectsPage.setDescription('La');
+            await expect(ProjectsPage.msgErrorDescription).toHaveText('"description" length must be at least 5 characters long')
+        })
+        it('Should msg error with Client Invalid', async () => {
+            await ProjectsPage.setClient('');
+            await expect(ProjectsPage.msgErrorClient).toHaveText('"client" is not allowed to be empty')
+        })
+        it('Should msg error with Start Date Wrong', async () => {
+            await ProjectsPage.setStart('');
+            await expect(ProjectsPage.starDateErrorMsg).toHaveText('"startDate" must be a valid date')
+
+        })
+        it('Should msg error with End Date Wrong', async () => {
+            await ProjectsPage.setEnd('');
+            await expect(ProjectsPage.endDateErrorMsg).toHaveText('"endDate" must be a valid date')
+
+        })
+        it('Close form page using cross', async () => {
+            await ProjectsPage.closeFormPage()
+        })
+    })
 })
