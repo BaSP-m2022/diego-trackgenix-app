@@ -7,7 +7,7 @@ import styles from './admins.module.css';
 import InputControlled from 'components/shared/inputControlled';
 import Joi, { required } from 'joi';
 import { joiResolver } from '@hookform/resolvers/joi';
-import { createAdmin } from '../../redux/admins/thunks';
+import { createAdmin } from 'redux/admins/thunks';
 import { useDispatch } from 'react-redux';
 import { useForm } from 'react-hook-form';
 
