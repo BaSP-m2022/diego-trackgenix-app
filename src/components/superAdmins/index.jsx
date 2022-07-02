@@ -154,7 +154,6 @@ function SuperAdmins() {
   } else {
     return (
       <section className={styles.container}>
-        <h2>Super Admins</h2>
         <Button
           icons={'add'}
           callback={() => {
