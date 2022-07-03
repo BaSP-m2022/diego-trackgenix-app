@@ -1,7 +1,8 @@
 import React from 'react';
 import Modal from 'components/shared/modal';
 import styles from './time-sheets.module.css';
-import Button from 'components/shared/buttons';
+// import Button from 'components/shared/buttons';
+import { ButtonOption } from 'components/shared/buttonsOption';
 const ModalDeleteConfirmation = ({
   deleteTimeSheet,
   timeSheet,
@@ -10,14 +11,15 @@ const ModalDeleteConfirmation = ({
   isModalDelete
 }) => {
   return (
-    <Modal isOpen={isModalDelete} setIsOpen={setIsModalDelete} title={'Delete'}>
-      <div className={styles.modalHeader}>
+    <Modal isOpen={isModalDelete} setIsOpen={setIsModalDelete} title={'Delete Timesheet'}>
+      {/* <div className={styles.modalHeader}>
         <h5 className={styles.heading}>Confirmation</h5>
-      </div>
-      <div>Are you sure you want to delete the item?</div>
-      <div className={styles.modalActions}>
-        <div className={styles.actionsContainer}>
-          <Button
+      </div> */}
+      <h3>Are you sure?</h3>
+
+      {/* <div className={styles.modalActions}> */}
+      {/* <div className={styles.actionsContainer}> */}
+      {/* <Button
             callback={() => {
               deleteTimeSheet(timeSheet)(dispatch).then(() => setIsModalDelete(false));
             }}
@@ -28,8 +30,24 @@ const ModalDeleteConfirmation = ({
               setIsModalDelete(false);
             }}
             text={'Cancel'}
-          />
-        </div>
+          /> */}
+      <div className={styles.modalbuttons}>
+        <ButtonOption
+          option={'yes'}
+          text={'Confirm'}
+          callback={() => {
+            deleteTimeSheet(timeSheet)(dispatch).then(() => setIsModalDelete(false));
+          }}
+        ></ButtonOption>
+        <ButtonOption
+          option={'no'}
+          callback={() => {
+            setIsModalDelete(false);
+          }}
+          text={'Cancel'}
+        ></ButtonOption>
+        {/* </div> */}
+        {/* </div> */}
       </div>
     </Modal>
   );

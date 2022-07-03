@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './super-admins.module.css';
 import Button from 'components/shared/buttons';
+import { ButtonOption } from 'components/shared/buttonsOption';
 import Table from 'components/shared/table';
 import Modal from 'components/shared/modal';
 import Loader from 'components/shared/loading';
@@ -154,7 +155,6 @@ function SuperAdmins() {
   } else {
     return (
       <section className={styles.container}>
-        <h2>Super Admins</h2>
         <Button
           icons={'add'}
           callback={() => {
@@ -162,16 +162,25 @@ function SuperAdmins() {
           }}
         />
         {/* MODAL DELETE */}
-        <Modal
-          isOpen={isOpen}
-          setIsOpen={setIsOpen}
-          title={'Are you sure you want to delete this user?'}
-        >
-          <Button callback={() => handleDeleteSuperAdmin(id)} text={'Delete'} />
+        <Modal isOpen={isOpen} setIsOpen={setIsOpen} title={'Delete Super Admin'}>
+          <h3>Are you sure?</h3>
+          {/* <Button callback={() => handleDeleteSuperAdmin(id)} text={'Delete'} /> */}
+          <div className={styles.modalbuttons}>
+            <ButtonOption
+              option={'yes'}
+              text={'Confirm'}
+              callback={() => handleDeleteSuperAdmin(id)}
+            ></ButtonOption>
+            <ButtonOption
+              option={'no'}
+              callback={() => setIsOpen(false)}
+              text={'Cancel'}
+            ></ButtonOption>
+          </div>
         </Modal>
         {/* MODAL ADD */}
-        <Modal isOpen={isOpenAdd} setIsOpen={setIsOpenAdd} reset={reset}>
-          <h3>Add new super admin</h3>
+        <Modal isOpen={isOpenAdd} setIsOpen={setIsOpenAdd} reset={reset} title={'Add Super Admin'}>
+          {/* <h3>Add new super admin</h3> */}
           <form className={styles.containerForm} onSubmit={handleSubmit(handleCreateSuperAdmin)}>
             <InputControlled
               label={'First Name:'}
@@ -206,12 +215,25 @@ function SuperAdmins() {
               error={errors.password}
               placeholder={'Password'}
             />
-            <Button icons={'submit'} />
+            {/* <Button icons={'submit'} /> */}
+            <div className={styles.modalbuttons}>
+              <ButtonOption option={'yes'} text={'Confirm'}></ButtonOption>
+              <ButtonOption
+                option={'no'}
+                callback={() => setIsOpenAdd(false)}
+                text={'Cancel'}
+              ></ButtonOption>
+            </div>
           </form>
         </Modal>
         {/* MODAL EDIT */}
-        <Modal isOpen={isOpenEdit} setIsOpen={setIsOpenEdit} reset={reset}>
-          <h3>Edit super admin</h3>
+        <Modal
+          isOpen={isOpenEdit}
+          setIsOpen={setIsOpenEdit}
+          reset={reset}
+          title={'Edit Super Admin'}
+        >
+          {/* <h3>Edit super admin</h3> */}
           <form className={styles.containerForm} onSubmit={handleSubmit(handleEditSuperAdmin)}>
             <InputControlled
               label={'First Name:'}
@@ -246,7 +268,15 @@ function SuperAdmins() {
               error={errors.password}
               placeholder={'Password'}
             />
-            <Button icons={'submit'} />
+            {/* <Button icons={'submit'} /> */}
+            <div className={styles.modalbuttons}>
+              <ButtonOption option={'yes'} text={'Confirm'}></ButtonOption>
+              <ButtonOption
+                option={'no'}
+                callback={() => setIsOpenEdit(false)}
+                text={'Cancel'}
+              ></ButtonOption>
+            </div>
           </form>
         </Modal>
         {/* MODAL NOTIFICATION */}

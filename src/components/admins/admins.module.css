@@ -183,3 +183,12 @@
 	position: absolute;
 	right: 450px;
   }
+
+@media (max-width: 1080px) {
+	.modalbuttons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+}

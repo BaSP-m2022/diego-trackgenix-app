@@ -1,7 +1,8 @@
 import React from 'react';
 import { useEffect } from 'react';
 import styles from './time-sheets.module.css';
-import Button from 'components/shared/buttons';
+// import Button from 'components/shared/buttons';
+import { ButtonOption } from 'components/shared/buttonsOption';
 import Modal from 'components/shared/modal';
 import DropdownForm from 'components/shared/dropdownForm';
 import InputControlled from 'components/shared/inputControlled';
@@ -97,7 +98,7 @@ const ModalTimeSheetEdit = ({
 
   return (
     <section>
-      <Modal isOpen={isModalEdit} setIsOpen={setIsModalEdit}>
+      <Modal isOpen={isModalEdit} setIsOpen={setIsModalEdit} title={'Edit Timesheet'}>
         <form onSubmit={handleSubmit(editTimeSheetHandler)} className={styles.formContainer}>
           <div className={styles.inputContainer}>
             <div className={styles.inputColumnOne}>
@@ -174,13 +175,21 @@ const ModalTimeSheetEdit = ({
             </div>
           </div>
           <div className={styles.btnModalContainer}>
-            <Button
+            {/* <Button
               callback={() => {
                 setIsModalEdit(false);
               }}
               text={'Cancel'}
             ></Button>
-            <Button text={'Edit'}></Button>
+            <Button text={'Edit'}></Button> */}
+            <ButtonOption option={'yes'} text={'Confirm'}></ButtonOption>
+            <ButtonOption
+              option={'no'}
+              callback={() => {
+                setIsModalEdit(false);
+              }}
+              text={'Cancel'}
+            ></ButtonOption>
           </div>
         </form>
       </Modal>
