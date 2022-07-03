@@ -5,7 +5,8 @@ import joi from 'joi';
 import styles from './manageItem.module.css';
 
 import InputControlled from 'components/shared/inputControlled';
-import Button from 'components/shared/buttons';
+// import Button from 'components/shared/buttons';
+import { ButtonOption } from 'components/shared/buttonsOption';
 import { useEffect } from 'react';
 
 const ManageItem = function ({ handler, project }) {
@@ -126,8 +127,16 @@ const ManageItem = function ({ handler, project }) {
           />
         </div>
       </div>
-      <div className={styles.buttonConteiner}>
+      {/* <div className={styles.buttonConteiner}>
         <Button icons="submit" />
+      </div> */}
+      <div className={styles.modalbuttons}>
+        <ButtonOption option={'yes'} text={'Confirm'}></ButtonOption>
+        {/* <ButtonOption
+          option={'no'}
+          callback={() => setModalAddItemOpen(false)}
+          text={'Cancel'}
+        ></ButtonOption> */}
       </div>
     </form>
   );

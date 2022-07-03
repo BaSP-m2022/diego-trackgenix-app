@@ -41,7 +41,7 @@ const Sidebar = () => {
         </li>
 
         <li>
-          <a href="/super-admin">
+          <a href="/super-admins">
             <span>Super Admins</span>
             <span>
               <a href="/super-admins">

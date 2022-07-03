@@ -2,7 +2,8 @@ import React from 'react';
 import styles from './time-sheets.module.css';
 import { useState, useEffect } from 'react';
 import Modal from 'components/shared/modal';
-import Button from 'components/shared/buttons';
+// import Button from 'components/shared/buttons';
+import { ButtonOption } from 'components/shared/buttonsOption';
 import DropdownForm from 'components/shared/dropdownForm';
 import * as timesheetThunks from 'redux/timesheets/thunks';
 import { useDispatch, useSelector } from 'react-redux/es/exports';
@@ -84,7 +85,7 @@ const ModalAddTimeSheet = ({ setIsModalAdd, isModalAdd, employees, tasks, projec
   };
   return (
     <>
-      <Modal isOpen={isModalAdd} setIsOpen={setIsModalAdd}>
+      <Modal isOpen={isModalAdd} setIsOpen={setIsModalAdd} title={'Add Timesheet'}>
         <form onSubmit={handleSubmit(addTimeSheetHandler)} className={styles.formContainer}>
           <div className={styles.inputContainer}>
             <div className={styles.inputColumnOne}>
@@ -160,7 +161,7 @@ const ModalAddTimeSheet = ({ setIsModalAdd, isModalAdd, employees, tasks, projec
               />
             </div>
           </div>
-          <div className={styles.btnModalContainer}>
+          {/* <div className={styles.btnModalContainer}>
             <Button
               text={'Cancel'}
               callback={() => {
@@ -169,6 +170,17 @@ const ModalAddTimeSheet = ({ setIsModalAdd, isModalAdd, employees, tasks, projec
               }}
             ></Button>
             <Button text={'Add'} />
+          </div> */}
+          <div className={styles.btnModalContainer}>
+            <ButtonOption option={'yes'} text={'Confirm'}></ButtonOption>
+            <ButtonOption
+              option={'no'}
+              callback={() => {
+                setIsModalAdd(false);
+                reset();
+              }}
+              text={'Cancel'}
+            ></ButtonOption>
           </div>
         </form>
       </Modal>

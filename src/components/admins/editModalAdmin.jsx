@@ -2,7 +2,8 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import styles from './admins.module.css';
 import Modal from 'components/shared/modal';
-import Button from 'components/shared/buttons';
+// import Button from 'components/shared/buttons';
+import { ButtonOption } from 'components/shared/buttonsOption';
 import DropdownForm from 'components/shared/dropdownForm';
 import InputControlled from 'components/shared/inputControlled';
 import Joi, { required } from 'joi';
@@ -79,7 +80,7 @@ const ModalEditAdmin = ({ admin, setShowEditModal, showEditModal, setSucModalIsO
   }, [admin]);
 
   return (
-    <Modal isOpen={showEditModal} setIsOpen={setShowEditModal}>
+    <Modal isOpen={showEditModal} setIsOpen={setShowEditModal} title={'Edit Admin'}>
       <form onSubmit={handleSubmit(editAdminHandler)}>
         <div className={styles.addModalContainer}>
           <div>
@@ -142,7 +143,13 @@ const ModalEditAdmin = ({ admin, setShowEditModal, showEditModal, setSucModalIsO
           </div>
         </div>
         <div className={styles.modalButtons}>
-          <Button value="Submit" icons={'submit'} />
+          {/* <Button value="Submit" icons={'submit'} /> */}
+          <ButtonOption option={'yes'} text={'Confirm'}></ButtonOption>
+          <ButtonOption
+            option={'no'}
+            callback={() => setShowEditModal(false)}
+            text={'Cancel'}
+          ></ButtonOption>
         </div>
       </form>
     </Modal>

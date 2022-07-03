@@ -1,7 +1,8 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import Modal from 'components/shared/modal';
-import Button from 'components/shared/buttons';
+// import Button from 'components/shared/buttons';
+import { ButtonOption } from 'components/shared/buttonsOption';
 import DropdownForm from 'components/shared/dropdownForm';
 import styles from './admins.module.css';
 import InputControlled from 'components/shared/inputControlled';
@@ -75,7 +76,7 @@ const ModalAddAdmin = ({ setShowAddModal, showAddModal, setSucModalIsOpen }) => 
   //   e.preventDefault();
   // }
   return (
-    <Modal isOpen={showAddModal} setIsOpen={setShowAddModal}>
+    <Modal isOpen={showAddModal} setIsOpen={setShowAddModal} title={'Add Admin'}>
       <form onSubmit={handleSubmit(addAdminHandler)}>
         <div className={styles.addModalContainer}>
           <div>
@@ -138,7 +139,13 @@ const ModalAddAdmin = ({ setShowAddModal, showAddModal, setSucModalIsOpen }) => 
           </div>
         </div>
         <div className={styles.modalButtons}>
-          <Button value="Submit" icons={'submit'} />
+          {/* <Button value="Submit" icons={'submit'} /> */}
+          <ButtonOption option={'yes'} text={'Confirm'}></ButtonOption>
+          <ButtonOption
+            option={'no'}
+            callback={() => setShowAddModal(false)}
+            text={'Cancel'}
+          ></ButtonOption>
         </div>
       </form>
     </Modal>

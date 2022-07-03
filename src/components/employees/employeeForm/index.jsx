@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from './index.module.css';
 import Button from 'components/shared/buttons';
+import { ButtonOption } from 'components/shared/buttonsOption';
 import Modal from 'components/shared/modal';
 import InputControlled from 'components/shared/inputControlled';
 import DropdownForm from 'components/shared/dropdown';
@@ -136,80 +137,81 @@ const EmployeeForm = ({
             icons={'add'}
           ></Button>
         </div>
-        <Modal isOpen={isAddModalOpen} setIsOpen={setIsAddModalOpen} title={'Add'}>
+        <Modal isOpen={isAddModalOpen} setIsOpen={setIsAddModalOpen} title={'Add Employee'}>
           <div className={styles.container}>
-            <div className={styles.title}>
+            {/* <div className={styles.title}>
               <h2>Add new Employee</h2>
-            </div>
-            <form className={styles.containerForm} onSubmit={handleSubmit(addEmployeeHandler)}>
-              <div>
-                <div className={styles.formItem}>
-                  <InputControlled
-                    label={'Name'}
-                    type={'text'}
-                    name={'firstName'}
-                    placeholder="First name"
+            </div> */}
+            <form onSubmit={handleSubmit(addEmployeeHandler)}>
+              <div className={styles.containerForm}>
+                <div>
+                  <div className={styles.formItem}>
+                    <InputControlled
+                      label={'Name'}
+                      type={'text'}
+                      name={'firstName'}
+                      placeholder="First name"
+                      register={register}
+                      required
+                      error={errors.firstName}
+                    />
+                  </div>
+                  <div className={styles.formItem}>
+                    <InputControlled
+                      label={'Last Name'}
+                      type={'text'}
+                      name={'lastName'}
+                      placeholder="Last name"
+                      register={register}
+                      required
+                      error={errors.lastName}
+                    />
+                  </div>
+                  <div className={styles.formItem}>
+                    <InputControlled
+                      label={'Email'}
+                      name={'email'}
+                      placeholder="Email"
+                      register={register}
+                      required
+                      error={errors.email}
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className={styles.formItem}>
+                    <InputControlled
+                      label={'Phone'}
+                      type={'phone'}
+                      name={'phone'}
+                      placeholder="Phone"
+                      register={register}
+                      required
+                      error={errors.phone}
+                    />
+                  </div>
+                  <div className={styles.formItem}>
+                    <InputControlled
+                      label={'Password'}
+                      type={'password'}
+                      name={'password'}
+                      placeholder="Password"
+                      register={register}
+                      required
+                      error={errors.password}
+                    />
+                  </div>
+                  <DropdownForm
+                    initialOption="Is Active?"
+                    label="Active"
+                    options={['true', 'false']}
+                    name="active"
                     register={register}
                     required
-                    error={errors.firstName}
+                    error={errors.active}
                   />
                 </div>
-                <div className={styles.formItem}>
-                  <InputControlled
-                    label={'Last Name'}
-                    type={'text'}
-                    name={'lastName'}
-                    placeholder="Last name"
-                    register={register}
-                    required
-                    error={errors.lastName}
-                  />
-                </div>
-                <div className={styles.formItem}>
-                  <InputControlled
-                    label={'Email'}
-                    name={'email'}
-                    placeholder="Email"
-                    register={register}
-                    required
-                    error={errors.email}
-                  />
-                </div>
-              </div>
-              <div>
-                <div className={styles.formItem}>
-                  <InputControlled
-                    label={'Phone'}
-                    type={'phone'}
-                    name={'phone'}
-                    placeholder="Phone"
-                    register={register}
-                    required
-                    error={errors.phone}
-                  />
-                </div>
-                <div className={styles.formItem}>
-                  <InputControlled
-                    label={'Password'}
-                    type={'password'}
-                    name={'password'}
-                    placeholder="Password"
-                    register={register}
-                    required
-                    error={errors.password}
-                  />
-                </div>
-                <DropdownForm
-                  initialOption="Is Active?"
-                  label="Active"
-                  options={['true', 'false']}
-                  name="active"
-                  register={register}
-                  required
-                  error={errors.active}
-                />
-              </div>
-              <div className={styles.formItemSend}>
+                {/* <div className={styles.formItemSend}>
                 <Button type="submit" value="Submit" icons={'submit'} />
               </div>
               <div className={styles.formItemSend}>
@@ -219,93 +221,112 @@ const EmployeeForm = ({
                     setIsAddModalOpen(false);
                   }}
                 />
+              </div> */}
+              </div>
+              <div className={styles.modalbuttons}>
+                <ButtonOption option={'yes'} text={'Confirm'}></ButtonOption>
+                <ButtonOption
+                  option={'no'}
+                  callback={() => setIsAddModalOpen(false)}
+                  text={'Cancel'}
+                ></ButtonOption>
               </div>
             </form>
           </div>
         </Modal>
-        <Modal isOpen={isEditModalOpen} setIsOpen={setIsEditModalOpen} title={'Edit'}>
+        <Modal isOpen={isEditModalOpen} setIsOpen={setIsEditModalOpen} title={'Edit Employee'}>
           <div className={styles.container}>
-            <div className={styles.title}>
+            {/* <div className={styles.title}>
               <h2>Edit employee</h2>
-            </div>
-            <form className={styles.containerForm} onSubmit={handleSubmit(editEmployeeHandler)}>
-              <div>
-                <div className={styles.formItem}>
-                  <InputControlled
-                    label={'Name'}
-                    type={'text'}
-                    name={'firstName'}
-                    placeholder="First name"
+            </div> */}
+            <form onSubmit={handleSubmit(editEmployeeHandler)}>
+              <div className={styles.containerForm}>
+                <div>
+                  <div className={styles.formItem}>
+                    <InputControlled
+                      label={'Name'}
+                      type={'text'}
+                      name={'firstName'}
+                      placeholder="First name"
+                      register={register}
+                      required
+                      error={errors.firstName}
+                    />
+                  </div>
+                  <div className={styles.formItem}>
+                    <InputControlled
+                      label={'Last Name'}
+                      type={'text'}
+                      name={'lastName'}
+                      placeholder="Last name"
+                      register={register}
+                      required
+                      error={errors.lastName}
+                    />
+                  </div>
+                  <div className={styles.formItem}>
+                    <InputControlled
+                      label={'Email'}
+                      name={'email'}
+                      placeholder="Email"
+                      register={register}
+                      required
+                      error={errors.email}
+                    />
+                  </div>
+                </div>
+                <div>
+                  <div className={styles.formItem}>
+                    <InputControlled
+                      label={'Phone'}
+                      type={'phone'}
+                      name={'phone'}
+                      placeholder="Phone"
+                      register={register}
+                      required
+                      error={errors.phone}
+                    />
+                  </div>
+                  <div className={styles.formItem}>
+                    <InputControlled
+                      label={'Password'}
+                      type={'password'}
+                      name={'password'}
+                      placeholder="Password"
+                      register={register}
+                      required
+                      error={errors.password}
+                    />
+                  </div>
+                  <DropdownForm
+                    initialOption="Is Active?"
+                    label="Active"
+                    options={['true', 'false']}
+                    name="active"
                     register={register}
                     required
-                    error={errors.firstName}
+                    error={errors.active}
                   />
                 </div>
-                <div className={styles.formItem}>
-                  <InputControlled
-                    label={'Last Name'}
-                    type={'text'}
-                    name={'lastName'}
-                    placeholder="Last name"
-                    register={register}
-                    required
-                    error={errors.lastName}
-                  />
+                {/* <div className={styles.formItemSend}>
+                  <Button type="submit" value="Submit" icons={'submit'} />
                 </div>
-                <div className={styles.formItem}>
-                  <InputControlled
-                    label={'Email'}
-                    name={'email'}
-                    placeholder="Email"
-                    register={register}
-                    required
-                    error={errors.email}
+                <div className={styles.formItemSend}>
+                  <Button
+                    text="Cancel"
+                    callback={() => {
+                      setIsEditModalOpen(false);
+                    }}
                   />
-                </div>
+                </div> */}
               </div>
-              <div>
-                <div className={styles.formItem}>
-                  <InputControlled
-                    label={'Phone'}
-                    type={'phone'}
-                    name={'phone'}
-                    placeholder="Phone"
-                    register={register}
-                    required
-                    error={errors.phone}
-                  />
-                </div>
-                <div className={styles.formItem}>
-                  <InputControlled
-                    label={'Password'}
-                    type={'password'}
-                    name={'password'}
-                    placeholder="Password"
-                    register={register}
-                    required
-                    error={errors.password}
-                  />
-                </div>
-                <DropdownForm
-                  initialOption="Is Active?"
-                  label="Active"
-                  options={['true', 'false']}
-                  name="active"
-                  register={register}
-                  required
-                  error={errors.active}
-                />
-              </div>
-              <div className={styles.formItemSend}>
-                <Button type="submit" value="Submit" icons={'submit'} />
-              </div>
-              <div className={styles.formItemSend}>
-                <Button
-                  text="Cancel"
-                  callback={() => {
-                    setIsEditModalOpen(false);
-                  }}
-                />
+              <div className={styles.modalbuttons}>
+                <ButtonOption option={'yes'} text={'Confirm'}></ButtonOption>
+                <ButtonOption
+                  option={'no'}
+                  callback={() => setIsEditModalOpen(false)}
+                  text={'Cancel'}
+                ></ButtonOption>
               </div>
             </form>
           </div>

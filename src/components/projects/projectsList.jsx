@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addProject, getProjects, editProject, deleteProject } from 'redux/projects/thunks';
 import { useForm } from 'react-hook-form';
 import Button from 'components/shared/buttons';
+import { ButtonOption } from 'components/shared/buttonsOption';
 import Modal from 'components/shared/modal';
 import Table from 'components/shared/table';
 import ManageItem from 'components/projects/manageItem';
@@ -78,28 +79,50 @@ function ProjectsList() {
 
   return (
     <div className={styles.container}>
-      <Modal isOpen={modalAddItemOpen} setIsOpen={setModalAddItemOpen} reset={reset}>
-        <div className={styles.modalHeader}>
+      <Modal
+        isOpen={modalAddItemOpen}
+        setIsOpen={setModalAddItemOpen}
+        reset={reset}
+        title={'Add Project'}
+      >
+        {/* <div className={styles.modalHeader}>
           <h5 className={styles.heading}>Create project</h5>
-        </div>
+        </div> */}
         <ManageItem handler={addItem} />
       </Modal>
-      <Modal isOpen={modalEditItemOpen} setIsOpen={setModalEditItemOpen} reset={reset}>
-        <div className={styles.modalHeader}>
+      <Modal
+        isOpen={modalEditItemOpen}
+        setIsOpen={setModalEditItemOpen}
+        reset={reset}
+        title={'Edit Project'}
+      >
+        {/* <div className={styles.modalHeader}>
           <h5 className={styles.heading}>Change information</h5>
-        </div>
+        </div> */}
         <ManageItem project={project} handler={editItem} />
       </Modal>
-      <Modal isOpen={modalCloseOpen} setIsOpen={setModalCloseOpen} title={'Confirm'}>
-        <div className={styles.modalHeader}>
+      <Modal isOpen={modalCloseOpen} setIsOpen={setModalCloseOpen} title={'Delete Project'}>
+        {/* <div className={styles.modalHeader}>
           <h5 className={styles.heading}>Confirmation</h5>
-        </div>
-        <div>Are you sure you want to delete the item?</div>
-        <div className={styles.modalActions}>
+        </div> */}
+        <h3>Are you sure?</h3>
+        {/* <div className={styles.modalActions}>
           <div className={styles.actionsContainer}>
             <Button icons="delete" callback={() => deleteItem(project)} />
             <Button text="cancel" callback={() => setModalCloseOpen(false)} />
           </div>
+        </div> */}
+        <div className={styles.modalbuttons}>
+          <ButtonOption
+            option={'yes'}
+            text={'Confirm'}
+            callback={() => deleteItem(project)}
+          ></ButtonOption>
+          <ButtonOption
+            option={'no'}
+            callback={() => setModalCloseOpen(false)}
+            text={'Cancel'}
+          ></ButtonOption>
         </div>
       </Modal>
       {/* MODAL NOTIFICATION */}
