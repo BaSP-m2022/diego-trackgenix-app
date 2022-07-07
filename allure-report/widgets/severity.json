@@ -1,0 +1,211 @@
+[ {
+  "uid" : "441c8089df416ecf",
+  "name" : "\"before all\" hook",
+  "time" : {
+    "start" : 1656391268605,
+    "stop" : 1656391268607,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6398af57093ea46",
+  "name" : "Test titles",
+  "time" : {
+    "start" : 1656391269756,
+    "stop" : 1656391271974,
+    "duration" : 2218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b08c9abb44b1a7ee",
+  "name" : "Add timesheet modal",
+  "time" : {
+    "start" : 1656422421554,
+    "stop" : 1656422423710,
+    "duration" : 2156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7487f339f5ebef95",
+  "name" : "entities btns",
+  "time" : {
+    "start" : 1656391270441,
+    "stop" : 1656391271180,
+    "duration" : 739
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b4ccd2594a1c6df",
+  "name" : "text elements displayed",
+  "time" : {
+    "start" : 1656391268627,
+    "stop" : 1656391269853,
+    "duration" : 1226
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd2fe1b1d8a5271e",
+  "name" : "Displayed elements",
+  "time" : {
+    "start" : 1656389415191,
+    "stop" : 1656389416031,
+    "duration" : 840
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7f747942353b176",
+  "name" : "Test titles",
+  "time" : {
+    "start" : 1656384230263,
+    "stop" : 1656384231716,
+    "duration" : 1453
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "adb29550a0dc25f3",
+  "name" : "social media test",
+  "time" : {
+    "start" : 1656391269854,
+    "stop" : 1656391270440,
+    "duration" : 586
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "498fea4165377227",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1656374527572,
+    "stop" : 1656374531896,
+    "duration" : 4324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc805f9c17e7eeb4",
+  "name" : "Access to the add form",
+  "time" : {
+    "start" : 1656384231725,
+    "stop" : 1656384232846,
+    "duration" : 1121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c51bdbb172d470b",
+  "name" : "Add timesheet modal",
+  "time" : {
+    "start" : 1656391273630,
+    "stop" : 1656391275277,
+    "duration" : 1647
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "703aa498e82f15b6",
+  "name" : "Test titles",
+  "time" : {
+    "start" : 1656422406928,
+    "stop" : 1656422418565,
+    "duration" : 11637
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83dfb3d85e01aea5",
+  "name" : "\"before all\" hook",
+  "time" : {
+    "start" : 1656422405854,
+    "stop" : 1656422405856,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50a66b5057eceab9",
+  "name" : "text elements displayed",
+  "time" : {
+    "start" : 1656422405875,
+    "stop" : 1656422407726,
+    "duration" : 1851
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8babb1e8a8a4d9b",
+  "name" : "social media test",
+  "time" : {
+    "start" : 1656422407727,
+    "stop" : 1656422408354,
+    "duration" : 627
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28cf9526d603d36a",
+  "name" : "Access to the add form from add employee button correctly",
+  "time" : {
+    "start" : 1656383060849,
+    "stop" : 1656383061786,
+    "duration" : 937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cbe0688141b940b",
+  "name" : "Buttons Test",
+  "time" : {
+    "start" : 1656422418566,
+    "stop" : 1656422421376,
+    "duration" : 2810
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d709d60aa1e05122",
+  "name" : "Test titles",
+  "time" : {
+    "start" : 1656382713578,
+    "stop" : 1656382714228,
+    "duration" : 650
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e8226b8122c5046",
+  "name" : "entities btns",
+  "time" : {
+    "start" : 1656422408355,
+    "stop" : 1656422409439,
+    "duration" : 1084
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "967b53051c1f3e51",
+  "name" : "Access to the add form",
+  "time" : {
+    "start" : 1656384635444,
+    "stop" : 1656384636655,
+    "duration" : 1211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac9468f3f39be3e1",
+  "name" : "Buttons Test",
+  "time" : {
+    "start" : 1656391271976,
+    "stop" : 1656391273480,
+    "duration" : 1504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
