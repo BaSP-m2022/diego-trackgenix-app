@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1656392737547' stop='1656392737577'>
+    <name>Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed</name>
+    <title>Automation Test in SUPER ADMIN Entitie: Check if all visual elements are displayed</title>
+    <test-cases>
+        <test-case start='1656392737547' status='failed' stop='1656392737548'>
+            <name>Verify Main header</name>
+            <title>Verify Main header</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: HomePage is not defined</message>
+                <stack-trace>ReferenceError: HomePage is not defined
+                    at UserContext.&lt;anonymous> (C:\Users\nicol\OneDrive\Escritorio\diego-trackgenix-app\test\specs\super_admin.spec.js:32:26)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656392737561' status='failed' stop='1656392737562'>
+            <name>Verify Table of contents</name>
+            <title>Verify Table of contents</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: HomePage is not defined</message>
+                <stack-trace>ReferenceError: HomePage is not defined
+                    at UserContext.&lt;anonymous> (C:\Users\nicol\OneDrive\Escritorio\diego-trackgenix-app\test\specs\super_admin.spec.js:35:26)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656392737563' status='failed' stop='1656392737564'>
+            <name>Verify icon of Button Add</name>
+            <title>Verify icon of Button Add</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: HomePage is not defined</message>
+                <stack-trace>ReferenceError: HomePage is not defined
+                    at UserContext.&lt;anonymous> (C:\Users\nicol\OneDrive\Escritorio\diego-trackgenix-app\test\specs\super_admin.spec.js:38:26)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656392737565' status='failed' stop='1656392737566'>
+            <name>Verify icon of Button Delete</name>
+            <title>Verify icon of Button Delete</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: HomePage is not defined</message>
+                <stack-trace>ReferenceError: HomePage is not defined
+                    at UserContext.&lt;anonymous> (C:\Users\nicol\OneDrive\Escritorio\diego-trackgenix-app\test\specs\super_admin.spec.js:41:26)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1656392737566' status='failed' stop='1656392737576'>
+            <name>Verify icon of Button Edit</name>
+            <title>Verify icon of Button Edit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-103.0.5060.66'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: HomePage is not defined</message>
+                <stack-trace>ReferenceError: HomePage is not defined
+                    at UserContext.&lt;anonymous> (C:\Users\nicol\OneDrive\Escritorio\diego-trackgenix-app\test\specs\super_admin.spec.js:44:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

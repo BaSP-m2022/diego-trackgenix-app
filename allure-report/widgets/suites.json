@@ -1,0 +1,114 @@
+{
+  "total" : 23,
+  "items" : [ {
+    "uid" : "985880d045ef01a760e89e72703cdf84",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Cancel Delete user",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "328c616158f5db1a04bd1e8daaff4a80",
+    "name" : "Automation Test in ADMIN Entitie: Delete user",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "92ad51e81f374150dfe958d97d735cd8",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Check error msgs with empty data",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 12
+    }
+  }, {
+    "uid" : "434041f27c79c17e20affad8d25116af",
+    "name" : "Automation Test in ADMIN Entitie: Check error msgs with wrong data",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "51a70b2ef1751174e702772d164d10c6",
+    "name" : "Test Login and entry to swaglabs with corrects params: Check if buttons are clickable",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "fe5bce114039eb783a4adca42e6fac42",
+    "name" : "Automation Test in ADMIN Entitie: Check if buttons are clickable",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "56806fe7ebfc986e0c26959410e28708",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Check if buttons are clickable",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "37d52b2e86d518d2ae4fa84ada59054e",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Add a user",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "adbb309516a56546e465202670643be3",
+    "name" : "Automation Test in SUPER ADMIN Entitie: Edit user",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "18c29b06e0455029389c62135001c489",
+    "name" : "Automation Test in ADMIN Entitie: Add a user",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}
